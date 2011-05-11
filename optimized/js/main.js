@@ -44,6 +44,18 @@ $(function() {
        });
     });
   }
+
+  /**
+   * Country Selector
+   */
+  $.fn.jCountrySelector = function(o) {
+    // configurable elements
+    o = $.extend({      
+    }, o || {});
+    // chainable
+    return this.each(function() {
+    });
+  }
 });
 /**
  * Main

@@ -71,6 +71,9 @@ a {
 .hidden {
   display:none; 
 }
+.noborder { /* no nations! */
+  border:0;
+}
 
 /**************************************************
  * Fonts & Links
@@ -104,13 +107,17 @@ a:hover, .header a:hover, .footer a:hover {
 }
 .content.main {
   float:left;
-  width:625px;
-  margin-right:5px;
+  width:620px;
+  margin-right:0px;
 }
 .content.sidebar {
   float:left;
   width:285px;
-  margin-left:5px;
+}
+.content-holder2 { /* faux collumn */
+  background:transparent url(../images/layout/bg-sidebar.png) 647px 0 repeat-y;
+  margin:5px auto 50px auto;
+  padding-bottom:20px;
 }
 /**************************************************
  * Header
@@ -289,10 +296,10 @@ a:hover, .header a:hover, .footer a:hover {
   background:#5EB60C;
 }
 .header .navigation.main .level2 .fold a {
-  background:#FFF url(../images/bullets/menu_fold.png) 198px center no-repeat;
+  background:#FFF url(../images/8x8/menu_fold.png) 198px center no-repeat;
 }
 .header .navigation.main .level2 .fold a:hover {
-  background:#5EB60C url(../images/bullets/menu_fold_hover.png) 198px center  no-repeat;
+  background:#5EB60C url(../images/8x8/menu_fold_hover.png) 198px center  no-repeat;
 }
 /* Authentication & signup */
 .header .navigation.authentication {
@@ -327,11 +334,6 @@ a:hover, .header a:hover, .footer a:hover {
 /**************************************************
  * Content
  **************************************************/
-.content-holder2 {
-  background:transparent url(../images/bg-sidebar.png) 647px 0 repeat-y;
-  margin:10px auto 50px auto;
-  padding-bottom:20px;
-}
 .content.main, .content.sidebar {
   padding:5px 10px 10px 10px;
 }
@@ -355,6 +357,66 @@ a:hover, .header a:hover, .footer a:hover {
   font-size:1.8em;
 }
 
+/**************************************************
+ * Sidebar
+ **************************************************/
+.sidebar .sidebar-box {
+  border-bottom:3px solid #EEE;
+  float:left;
+  width:290px;
+  padding:10px;
+}
+.sidebar h3 {
+  color:#003300;
+  font-weight:bold;
+  font-size:1.3em;
+  clear:left;
+  padding-bottom:10px;
+}
+/* images */
+.sidebar .images li{
+  float:left;
+  width:130px;
+  margin:0 5px 10px 5px;
+  text-align:center;
+} 
+.sidebar .images a.more{
+  clear:left;
+}
+/* social */
+.sidebar .social li {
+  float:left;
+}
+.sidebar .social a:hover,
+.sidebar .social a {
+  display:block;
+  width:47px;
+  height:48px;
+  background:transparent url(../images/social.png) 0 0 no-repeat;
+  text-decoration:none;
+  margin-right:5px;
+}
+.sidebar .social a.rss {
+  width:45px;
+  background:transparent url(../images/social.png) -94px 0 no-repeat;
+}
+.sidebar .social a.twitter {
+  background:transparent url(../images/social.png) -47px 0 no-repeat;
+}
+.sidebar .social a.youtube {
+  background:transparent url(../images/social.png) -140px 0 no-repeat;
+}
+.sidebar .social a span {
+  visibility:hidden;
+}
+/* hey, what else can you do? */
+.sidebar a.more,
+.sidebar .act a {
+  display:block;
+  color:#000;
+  padding:5px 0 5px 20px;
+  background:transparent url(../images/10x10/arrow0.png) 2px center no-repeat;
+}
 /**************************************************
  * Footer
  **************************************************/
