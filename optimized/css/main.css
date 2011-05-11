@@ -148,13 +148,23 @@ a:hover, .header a:hover, .footer a:hover {
 }
 /* Country Selector */
 .header .select-website {
-  border:1px solid blue;
   float:left;
   width:350px;
+  margin:16px 0 0 22px;
 }
-.header .select-website.form select,
+.header select {
+  float:left;
+  height:25px;
+  padding:2px;
+  background:#FFF;
+  border:2px solid #61BA07;
+  font-size:1em;
+}
+ .header option {
+}
 .header .select-website.form .input {
   float:left;
+  margin-left:2px;
 }
 .header .form legend {
   display:none;
