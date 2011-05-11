@@ -1,0 +1,19 @@
+/*1297737574,169775557*/
+
+.text_exposed_root{display:inline}
+.text_exposed .text_exposed_show{display:inline}
+.text_exposed_show,.text_exposed .text_exposed_hide{display:none}
+.text_exposed_link{font-size:9px;padding:0 12px 0 0;white-space:nowrap}
+.text_exposed_link_icon{margin:0 0 -1px 4px}
+.text_exposed .text_exposed_link{display:none !important}
+.feedback_toggle_link .feedbackBling .text{line-height:normal}
+.feedbackBling{margin-right:-1px;margin-left:-1px}
+.feedback_toggle_link .feedbackBling .img{margin-top:-1px}
+.uiBlingBox{padding:3px 4px 3px 2px}
+.uiBlingBox:hover{text-decoration:none;background-color:#eceff5;border-bottom:1px solid #e5eaf1}
+.uiBlingBox .text{line-height:11px;vertical-align:text-bottom}
+.uiBlingBox .small{margin-left:5px}
+.uiBlingBox .img{margin-right:2px;vertical-align:text-top}
+.uiBlingBox .emptyBling{margin-right:0 !important}
+
+#bootloader_EgisA { height: 42px; }

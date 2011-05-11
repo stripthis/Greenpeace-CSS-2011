@@ -1,0 +1,1617 @@
+  background:#fff url(
+images/bg-body.gif
+ repeat-x;
+  background:url(
+images/logo.gif
+ no-repeat;
+  background:url(
+images/logo.gif
+ no-repeat;
+  background:url(
+images/bg-search-form.gif
+ no-repeat;
+  background:transparent url(
+images/btn-search.gif
+ no-repeat 0 0;
+  background:transparent url(
+images/btn-default-right.png
+ no-repeat scroll right top;
+  background:transparent url(
+images/btn-default-left.png
+ no-repeat scroll left top;
+  background:transparent url(
+images/btn-default-left-search.png
+ no-repeat scroll left top;
+  background:url(
+images/bg-nav.png
+ no-repeat;
+  background:url(
+images/nav-r.png
+ no-repeat 100% 0;
+  background:url(
+images/bg-nav-don.png
+ no-repeat left top;
+  background:url(
+images/nav-r-don.png
+ no-repeat right top;
+  background:#fff url(
+images/bg-nav1.gif
+ no-repeat 0 100%;
+  background:url(
+images/bullet2.gif
+ no-repeat 95% 50%;
+  background:#57b105 url(
+images/bullet3.gif
+ no-repeat 95% 50%;
+  background:url(
+images/bullet2.gif
+ no-repeat 95% 50%;
+  background:#57b105 url(
+images/bullet3.gif
+ no-repeat 95% 50%;
+  background:url(
+images/bullet5.gif
+ no-repeat 95% 50%;
+  background:#57b105 url(
+images/bullet4.gif
+ no-repeat 95% 50%;
+  background:url(
+images/separator.gif
+ no-repeat 0 50%;
+  background:url(
+images/bg-txt.gif
+ no-repeat;
+  background:url(
+images/btn-info.gif
+ no-repeat;
+  background:url(
+images/btn-sign-up-l.gif
+ no-repeat;
+  background:url(
+images/btn-sign-up-r.gif
+ no-repeat 100% 0;
+  background:transparent url(
+images/border-fade.gif
+ no-repeat scroll right 5px;
+  background:url(
+images/bg-sidebar-b.gif
+ no-repeat 100% 100%;
+  background:url(
+images/bullet6.gif
+ no-repeat 100% 4px;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-border2.png
+ repeat-x;
+  background:url(
+images/bg-email.gif
+ no-repeat;
+  background:url(
+images/bg-print.gif
+ no-repeat;
+  background:url(
+images/bg-rss.gif
+ no-repeat;
+  background:url(
+images/bg-rss-small.gif
+ no-repeat;
+  background:url(
+images/bg-share.gif
+ no-repeat;
+  background:url(
+images/bg-share-simple.gif
+ no-repeat;
+  background:url(
+images/box-m.gif
+ repeat-y;
+  background:url(
+images/box-t2.gif
+ no-repeat;
+  background:url(
+images/box-b.gif
+ no-repeat 0 100%;
+  background:transparent url(
+images/bg-border2.gif
+ repeat-x scroll left bottom;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-comments.gif
+ no-repeat;
+  background:url(
+images/bg-comments.gif
+ no-repeat;
+  background:url(
+images/bg-share-simple.gif
+ no-repeat;
+  background:url(
+images/shadow.gif
+ no-repeat 0 4px;
+  background:url(
+images/bg-accordion-close.gif
+ no-repeat;
+  background:#dee1e8 url(
+./images/arrow.gif
+ no-repeat 0 50%;
+  background:#dee1e8 url(
+./images/arrow-active.gif
+ no-repeat 0 50%;
+  background:#e9ecf3 url(
+images/arrow-active.gif
+ no-repeat 0 50%;
+  background:#f0f2f8 url(
+images/arrow-active.gif
+ no-repeat 0 50%;
+  background:#f7f9fd url(
+images/arrow-active.gif
+ no-repeat 0 50%;
+  background:#fcfdff url(
+images/arrow-active.gif
+ no-repeat 0 50%;
+  background:#dee1e8 url(
+images/arrow-active.gif
+ no-repeat 0 50%;
+  background:#e9ecf3 url(
+images/arrow.gif
+ no-repeat 0 50%;
+  background:#f0f2f8 url(
+images/arrow.gif
+ no-repeat 0 50%;
+  background:#f7f9fd url(
+images/arrow.gif
+ no-repeat 0 50%;
+  background:#fcfdff url(
+images/arrow.gif
+ no-repeat 0 50%;
+  background:#fff url(
+images/bullet7.gif
+ no-repeat 0 50%;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-footer.gif
+ repeat-x;
+  background:url(
+images/bg-footer-img.jpg
+ no-repeat 0 0;
+  background:url(
+images/map.gif
+ no-repeat;
+  background:url(
+images/digg.gif
+ no-repeat;
+  background:url(
+images/deli.gif
+ no-repeat;
+  background:url(
+images/facebook.gif
+ no-repeat;
+  background:url(
+images/myspace.gif
+ no-repeat;
+  background:url(
+images/flickr.gif
+ no-repeat;
+  background:url(
+images/twitter.gif
+ no-repeat;
+  background:url(
+images/youtube.gif
+ no-repeat;
+  background:url(
+images/bg-facts.gif
+ no-repeat;
+  background:url(
+images/bullet.gif
+ no-repeat 0 0;
+  background:url(
+images/boat.gif
+ no-repeat;
+  background:url(
+images/logo-mini.gif
+ no-repeat;
+  background:url(
+images/bg-border2.png
+ repeat-x;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bullet8.gif
+ no-repeat 0 8px;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-events-b2.gif
+ no-repeat scroll 0 100%;
+  background:url(
+images/open-img.gif
+ no-repeat;
+  background:url(
+images/open-img-hover.gif
+ no-repeat;
+  background:url(
+images/bg-tab-l.gif
+ no-repeat;
+  background:url(
+images/bg-tab-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-latestupdates-icons.gif
+ no-repeat;
+  background:url(
+images/bg-tab-act-l.gif
+ no-repeat;
+  background:url(
+images/bg-tab-act-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-inbox.gif
+ repeat-x;
+  background:url(
+images/btn-petition-l.gif
+ no-repeat;
+  background:url(
+images/btn-petition-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-petition-l-hover.gif
+ no-repeat;
+  background:url(
+images/btn-petition-r-hover.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-comments.gif
+ no-repeat;
+  background:url(
+images/separator2.gif
+ no-repeat 0 3px;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-more2.gif
+ no-repeat;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:transparent url(
+images/bg-image-wrapper1.gif
+ no-repeat scroll 0 0;
+  background:transparent url(
+images/bg-more.gif
+ no-repeat scroll 0 50%;
+  background:transparent url(
+images/bg-comments.gif
+ no-repeat scroll 0 0;
+  background:transparent url(
+images/bg-more.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/add-comments.gif
+ no-repeat;
+  background:url(
+images/bullet01.gif
+ no-repeat 0 6px;
+  background:url(
+images/bg-events-b3.gif
+ no-repeat 0 100%;
+  background:url(
+images/bg-events-b.gif
+ no-repeat 0 100%;
+  background:url(
+images/bg-events-b3.gif
+ no-repeat 0 100%;
+  background:url(
+images/bg-zoom.gif
+ no-repeat 100% 2px;
+  background:url(
+images/read-more.gif
+ no-repeat 0 0;
+  background:url(
+images/btn-sign-up-l.gif
+ no-repeat;
+  background:url(
+images/btn-sign-up-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/separator3.gif
+ no-repeat 0 50%;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:#f1f4fb url(
+images/bg-featurestory-top.gif
+ no-repeat left top;
+  background:#f1f4fb url(
+images/bg-featurestory-bottom.gif
+ no-repeat left top;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-next.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-prev.gif
+ no-repeat;
+  background:url(
+images/bg-disable.gif
+ no-repeat 0 0;
+  background:url(
+images/bg-disable-next.gif
+ no-repeat 100% 0;
+  background:url(
+images/separator4.gif
+ no-repeat 0 50%;
+  background:transparent url(
+images/btn-search-r1.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-search-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-search-r-hover.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-search-l-hover.gif
+ no-repeat;
+  background:url(
+images/btn-search-r1-hover.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-search2.gif
+ no-repeat;
+  background:url(
+images/plus16.gif
+ no-repeat right 13px;
+  background:url(
+images/btn-advanced2.gif
+ no-repeat right 8px;
+  background:url(
+images/bg-search-top.gif
+ no-repeat 0 0;
+  background:#fff url(
+images/bg-shadow.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-search3.gif
+ no-repeat;
+  background:url(
+images/bg-search3.gif
+ no-repeat;
+  background:url(
+images/bg-info.gif
+ no-repeat;
+  background:url(
+images/bg-tooltip-t.png
+ no-repeat!important;
+  background:url(
+images/bg-tooltip-b.png
+ no-repeat!important;
+  background:url(
+images/plus.gif
+ no-repeat 100% 0;
+  background:url(
+images/minus.gif
+ no-repeat 100% 0;
+  background:url(
+images/separator3.gif
+ no-repeat 0 50%;
+  background:url(
+images/separator3.gif
+ no-repeat 0 50%;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/message-c.gif
+ repeat-y;
+  background:url(
+images/message-t.gif
+ no-repeat;
+  background:url(
+images/message-b.gif
+ no-repeat 0 100%;
+  background:url(
+images/bg-red-c.gif
+ repeat-y;
+  background:url(
+images/bg-red-t.gif
+ no-repeat;
+  background:url(
+images/bg-red-b.gif
+ no-repeat 0 100%;
+  background:url(
+images/attention.gif
+ no-repeat 0 50%;
+  background:url(
+images/bg-attention.gif
+ no-repeat;
+  background:url(
+images/bg-attention-r.gif
+ no-repeat 100% 0!important;
+  background:url(
+images/attention3.gif
+ no-repeat 0 6px;
+  background:url(
+images/box-t2.gif
+ no-repeat;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/plus.gif
+ no-repeat 100% 50%;
+  background:url(
+images/bg-input-text-l.gif
+ no-repeat 0 0;
+  background:url(
+images/bg-input-text-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-info.gif
+ no-repeat;
+  background:url(
+images/ok.gif
+ no-repeat;
+  background:url(
+images/hide-c.gif
+ repeat-y;
+  background:url(
+images/hide-t.gif
+ no-repeat;
+  background:url(
+images/hide-b.gif
+ no-repeat 0 100%;
+  background:url(
+images/bg-border-grey.gif
+ repeat-x 0 100%;
+  background:url(
+images/minus.gif
+ no-repeat 100% 50%;
+  background:url(
+images/btn-change-r.gif
+ no-repeat;
+  background:url(
+images/btn-change-l.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-change-r-hover.gif
+ no-repeat;
+  background:url(
+images/btn-change-l-hover.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-not-ready-r.gif
+ no-repeat;
+  background:url(
+images/btn-notready-l.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-notready-r-hover.gif
+ no-repeat;
+  background:url(
+images/btn-notready-l-hover.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-tool.png
+ no-repeat;
+  background:url(
+images/bg-tool-r.png
+ no-repeat;
+  background:url(
+images/bg-close.gif
+ no-repeat;
+  background:url(
+images/bg-yellow.gif
+ no-repeat;
+  background:url(
+images/bg-yellow-r.gif
+ no-repeat 100% 0!important;
+  background:url(
+images/red-text.gif
+ no-repeat;
+  background:url(
+images/red-text-r.gif
+ no-repeat 100% 0!important;
+  background:url(
+images/browse1.gif
+ no-repeat;
+  background:#000 url(
+images/bg-header.gif
+ repeat-x;
+  background:transparent url(
+images/bg-footer.gif
+ repeat-x scroll 0 0;
+  background:url(
+images/bkcement4.jpg
+ no-repeat;
+  background:url(
+images/bullet1.gif
+ no-repeat 100% 4px;
+  background:url(
+images/bg-link-l.gif
+ no-repeat;
+  background:url(
+images/bg-link-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-mail.gif
+ no-repeat 0 50%;
+  background:url(
+images/bg-download.gif
+ no-repeat 0 50%;
+  background:url(
+images/bg-print1.gif
+ no-repeat 0 50%;
+  background:url(
+images/bg-rss1.gif
+ no-repeat 0 50%;
+  background:url(
+images/bg-share-black.gif
+ no-repeat;
+  background:url(
+images/bg-share-black.gif
+ no-repeat;
+  background:url(
+images/bg-action-t.png
+ no-repeat;
+  background:url(
+images/bg-action-c.png
+ repeat;
+  background:url(
+images/bg-action-b.png
+ no-repeat;
+  background:url(
+images/bg-border.png
+ no-repeat;
+  background:url(
+images/bg-border.png
+ no-repeat;
+  background:url(
+images/bg-textbox.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/bg-textbox-l.gif
+ no-repeat scroll 100% 0;
+  background:url(
+images/red-text2.gif
+ no-repeat;
+  background:url(
+images/red-text2-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-attention2.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/bg-attention2-r.gif
+ no-repeat scroll 100% 0;
+  background:url(
+images/attention3.gif
+ no-repeat scroll 0 6px;
+  background:url(
+images/bg-info2.gif
+ no-repeat;
+  background:url(
+images/ok2.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/btn-continue-l.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/btn-continue-r.gif
+ no-repeat scroll 100% 0;
+  background:url(
+images/btn-continue-l-hover.gif
+ no-repeat;
+  background:url(
+images/btn-continue-r-hover.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-cont-not-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-cont-not-l.gif
+ no-repeat;
+  background:url(
+images/btn-cont-not-l-hover.gif
+ no-repeat;
+  background:url(
+images/btn-cont-not-r-hover.gif
+ no-repeat 100% 0;
+  background:url(
+images/flash-c.gif
+ repeat-y;
+  background:url(
+images/flash-t.gif
+ no-repeat;
+  background:url(
+images/flash-b.gif
+ no-repeat 0 100%;
+  background:url(
+images/progress-c.gif
+ repeat-y;
+  background:url(
+images/progress-t.gif
+ no-repeat;
+  background:url(
+images/progress-b.gif
+ no-repeat 0 100%;
+  background:url(
+images/bg-progress.gif
+ no-repeat;
+  background:url(
+images/bg-bar.gif
+ no-repeat;
+  background:url(
+images/bg-border2.png
+ repeat-x;
+  background:url(
+images/add-comments02.gif
+ no-repeat;
+  background:url(
+images/flag-abuse.gif
+ no-repeat;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/btn-sign.gif
+ no-repeat;
+  background:url(
+images/btn-sign-hover.gif
+ no-repeat;
+  background:url(
+images/wrap-textarea.gif
+ no-repeat;
+  background:url(
+images/btn-change-r.gif
+ no-repeat;
+  background:url(
+images/btn-change-l.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-change-r-hover.gif
+ no-repeat;
+  background:url(
+images/btn-change-l-hover.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-not-ready-r.gif
+ no-repeat;
+  background:url(
+images/btn-notready-l.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-notready-r-hover.gif
+ no-repeat;
+  background:url(
+images/btn-notready-l-hover.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-btn-newsletter02.gif
+ no-repeat;
+  background:url(
+images/bg-btn-newsletter02-hover.gif
+ no-repeat;
+  background:url(
+images/ico-heart02.gif
+ no-repeat;
+  background:url(
+images/bg-btn-newsletter02.gif
+ no-repeat;
+  background:url(
+images/bg-btn-newsletter02-hover.gif
+ no-repeat;
+  background:#6C0 url(
+images/bg-donate-box-b02.gif
+ no-repeat 0 100%;
+  background:url(
+images/bg-tabset-el-l02.gif
+ no-repeat;
+  background:url(
+images/bg-tabset-el-r02.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-input-donate02.gif
+ no-repeat;
+  background:url(
+images/bg-donate-box-t02.gif
+ no-repeat;
+  background:#4d535f url(
+images/bg-header.gif
+ repeat-x;
+  background:#383e49 url(
+images/bg-wrapper.gif
+ repeat-y 50% 0;
+  background-image:url(
+images/bg-border3.gif
+;
+  background:url(
+images/bg-image-wrapper.png
+ no-repeat;
+  background:url(
+images/btn-rss.gif
+ no-repeat;
+  background-image:url(
+images/bg-more3.gif
+;
+  background-image:url(
+images/bg-border3.gif
+;
+  background-image:url(
+images/bg-comments2.gif
+;
+  background-image:url(
+images/bg-more3.gif
+;
+  background-image:url(
+images/bg-inbox2.gif
+;
+  background-image:url(
+images/bg-tab2-l.gif
+;
+  background-image:url(
+images/bg-tab2-r.gif
+;
+  background-image:url(
+images/bg-tab2-act-l.gif
+;
+  background-image:url(
+images/bg-tab2-act-r.gif
+;
+  background:url(
+images/mark-all.gif
+ no-repeat 0 60%;
+  background:url(
+images/mark-photo.gif
+ no-repeat 0 60%;
+  background:url(
+images/mark-video.gif
+ no-repeat 0 60%;
+  background:url(
+images/mark-pub.gif
+ no-repeat 0 60%;
+  background:url(
+images/mark-card.gif
+ no-repeat 0 60%;
+  background:url(
+images/mark-other.gif
+ no-repeat 0 60%;
+  background:url(
+images/bg-border3.gif
+ repeat-x 0 100%;
+  background:url(
+images/bg-comments2.gif
+ no-repeat;
+  background:url(
+images/bg-share2-simple.gif
+ no-repeat;
+  background-image:url(
+images/bg-comments3.gif
+;
+  background:url(
+images/bg-share2-simple.gif
+ no-repeat;
+  background:url(
+images/link-prev.gif
+ no-repeat 0 0;
+  background:url(
+images/link-next.gif
+ no-repeat 100% 0;
+  background:url(
+images/grey-arrow-left.gif
+ no-repeat 0 2px;
+  background:url(
+images/white-arrow-left.gif
+ no-repeat 0 2px;
+  background:url(
+images/grey-arrow-right.gif
+ no-repeat 100% 2px;
+  background:url(
+images/white-arrow-right.gif
+ no-repeat 100% 2px;
+  background:url(
+images/bg-border3.gif
+ repeat-x 0 100%;
+  background:url(
+images/bg-border3.gif
+ repeat-x;
+  background:url(
+images/bg-link2-l.gif
+ no-repeat;
+  background:url(
+images/bg-link2-l.gif
+ no-repeat;
+  background:url(
+images/bg-rss1.gif
+ no-repeat;
+  background:url(
+images/bg-link2-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-share2.gif
+ no-repeat;
+  background:url(
+images/bg-share2-simple.gif
+ no-repeat;
+  background:url(
+images/bg-link3-l.gif
+ no-repeat;
+  background:url(
+images/bg-link3-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/mark-show.gif
+ no-repeat 0 60%;
+  background:url(
+images/sep-breadcrumbs.gif
+ no-repeat 100% 60%;
+  background:url(
+images/bg-border3.gif
+ repeat-x 0 100%;
+  background:url(
+images/bg-link5-l.gif
+ no-repeat;
+  background:url(
+images/bg-link5-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-play.gif
+ no-repeat;
+  background:url(
+images/btn-pause.gif
+ no-repeat;
+  background:url(
+images/bg-border3.gif
+ repeat-x 0 100%;
+  background:url(
+images/bg-gallery-wrapper.gif
+ repeat-x 0 100%;
+  background:url(
+images/bg-image-wrapper.png
+ no-repeat;
+  background:url(
+images/bg-gallery-wrapper.gif
+ repeat-x 0 100%;
+  background:#cb320b url(
+images/bg-game-list-title.gif
+ no-repeat;
+  background:url(
+images/bg-gallery-wrapper.gif
+ repeat-x 0 100%;
+  background:url(
+images/bg-more4.gif
+ no-repeat;
+  background:url(
+images/bg-wall-list-title.gif
+ no-repeat;
+  background:url(
+images/bg-gallery.gif
+ repeat-x 0 100%;
+  background:url(
+images/bg-more4.gif
+ no-repeat;
+  background:url(
+images/bg-accordion.gif
+ no-repeat;
+  background:transparent url(
+images/open-img.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/open-img-hover.gif
+ no-repeat;
+  background:url(
+images/bg-more.gif
+ no-repeat;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/headline-devider.gif
+ no-repeat 0 2px;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bullet02.gif
+ no-repeat 0 4px;
+  background:transparent url(
+images/bg-more.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/bg-border5.gif
+ repeat-x 0 100%;
+  background:url(
+images/bg-tabset-el-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-tabset-el-l.gif
+ no-repeat;
+  background:url(
+images/bg-donate-box-t.gif
+ no-repeat;
+  background:url(
+images/bg-border5.gif
+ repeat-x 0 100%;
+  background:#6c0 url(
+images/bg-donate-box-b.gif
+ no-repeat 0 100%;
+  background:url(
+images/bg-input-donate.gif
+ no-repeat;
+  background:url(
+images/bg-btn-donate.jpg
+ no-repeat;
+  background:transparent url(
+images/ico-heart.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/bg-border2.png
+ repeat-x;
+  background:url(
+images/bg-input-text-l.gif
+ no-repeat;
+  background:url(
+images/red-text.gif
+ no-repeat;
+  background:url(
+images/bg-input-text-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/red-text-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-attention.gif
+ no-repeat;
+  background:url(
+images/bg-attention-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/attention3.gif
+ no-repeat 0 6px;
+  background:transparent url(
+images/ok.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/bg-btn-newsletter.png
+ no-repeat;
+  background:url(
+images/bg-shadow-container-t.png
+ no-repeat;
+  background:url(
+images/bg-shadow-container-c.png
+ repeat-y;
+  background:url(
+images/bg-shadow-container-b.png
+ no-repeat;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-input-text-l.gif
+ no-repeat;
+  background:url(
+images/red-text.gif
+ no-repeat;
+  background:url(
+images/bg-input-text-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/red-text-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-attention.gif
+ no-repeat;
+  background:url(
+images/bg-attention-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/attention3.gif
+ no-repeat 0 6px;
+  background:url(
+images/bg-tooltip-t.png
+ no-repeat!important;
+  background:url(
+images/bg-tooltip-b.png
+ no-repeat!important;
+  background:url(
+images/ok.gif
+ no-repeat;
+  background:url(
+images/bg-textarea.gif
+ no-repeat;
+  background:url(
+images/bg-btn-send.png
+ no-repeat;
+  background:url(
+images/bg-btn-send-grey.gif
+ no-repeat!important;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-more.gif
+ no-repeat 0 2px;
+  background:url(
+images/bg-border2.png
+ repeat-x;
+  background:url(
+images/bg-ico-number.gif
+ no-repeat;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-input-text-l-green.gif
+ no-repeat;
+  background:url(
+images/bg-input-text-r-greeen.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-btn-show-page.png
+ no-repeat;
+  background:url(
+images/bg-btn-search.png
+ no-repeat;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/ico-close.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-textarea1.gif
+ no-repeat;
+  background:url(
+images/bg-btn-send-arrow.png
+ no-repeat;
+  background:url(
+images/bg-btn-cancel.gif
+ no-repeat;
+  background:url(
+images/bg-btn-ok.png
+ no-repeat;
+  background:url(
+images/bg-btn-cancel-arrow.gif
+ no-repeat;
+  background:url(
+images/bg-btn-sign-in.png
+ no-repeat;
+  background:url(
+images/bg-btn-return.gif
+ no-repeat;
+  background:url(
+images/bg-btn-delete.png
+ no-repeat;
+  background:url(
+images/ico-close.gif
+ no-repeat 100% 0;
+  background:url(
+images/btn-tell-friend.gif
+ no-repeat;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:#ebedf0 url(
+images/drop-mark-t.gif
+ no-repeat;
+  background:url(
+images/drop-mark-b.gif
+ no-repeat 0 100%;
+  background:url(
+./images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+./images/bullet10.gif
+ no-repeat 0 3px;
+  background:url(
+images/wrap-textarea2.gif
+ no-repeat;
+  background:url(
+images/bg-img-code2.gif
+ no-repeat;
+  background:url(
+images/bg-more.gif
+ no-repeat;
+  background:url(
+images/bg-border5.gif
+ repeat-x 0 100%;
+  background:url(
+images/bg-tabset-el-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-tabset-el-l.gif
+ no-repeat;
+  background:url(
+images/bg-donate-box-t.gif
+ no-repeat;
+  background:url(
+images/bg-border5.gif
+ repeat-x 0 100%;
+  background:#6c0 url(
+images/bg-donate-box-b.gif
+ no-repeat 0 100%;
+  background:url(
+images/bg-input-donate.gif
+ no-repeat;
+  background:url(
+images/bg-btn-donate.jpg
+ no-repeat;
+  background:url(
+images/bg-btn-donate.jpg
+ no-repeat;
+  background:transparent url(
+images/ico-heart.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/bg-border2.png
+ repeat-x;
+  background:url(
+images/red-text.gif
+ no-repeat;
+  background:url(
+images/bg-input-text-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/red-text-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-attention.gif
+ no-repeat;
+  background:url(
+images/bg-attention-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/attention3.gif
+ no-repeat 0 6px;
+  background:transparent url(
+images/ok.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/bg-btn-newsletter.png
+ no-repeat;
+  background:#fff url(
+images/bg-body1.gif
+ repeat-x!important;
+  background:#282d38 url(
+images/bg-visual.gif
+ repeat-x;
+  background:url(
+"images/btn-sign-up-r.gif"
+ no-repeat scroll 100% 0 transparent;
+  background:url(
+images/bg-last-name-input.gif
+ no-repeat;
+  background:url(
+images/bg-more.gif
+ no-repeat 0 center;
+  background:transparent url(
+images/bg-border2.png
+ repeat-x scroll 0 100%;
+  background:transparent url(
+images/open-img.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/open-img-hover.gif
+ no-repeat;
+  background:url(
+images/bg-more.gif
+ no-repeat 0 center;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-more.gif
+ no-repeat;
+  background:url(
+images/bg-border2.png
+ repeat-x;
+  background:url(
+images/select-button.gif
+ no-repeat;
+  background:url(
+images/select-left.gif
+ no-repeat;
+  background:url(
+images/select-bg.gif
+ repeat-x;
+  background:transparent url(
+images/select-active.gif
+ no-repeat!important;
+  background:transparent url(
+images/select-button1.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/left2.gif
+ no-repeat;
+  background:url(
+images/select-bg.gif
+ repeat-x;
+  background:url(
+images/select-active2.gif
+ no-repeat!important;
+  background:url(
+images/select2-l.gif
+ no-repeat;
+  background:url(
+images/select2-arrow.gif
+ no-repeat;
+  background:transparent url(
+images/bg-newsletter.png
+ no-repeat scroll 0 0!important;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/minus.gif
+ no-repeat 100% 50%;
+  background:url(
+images/message-c-error.gif
+ repeat-y;
+  background:url(
+images/message-t-error.gif
+ no-repeat;
+  background:url(
+images/message-b-error.gif
+ no-repeat 0 100%;
+  background:transparent url(
+images/attention.gif
+ no-repeat 0 3px;
+  background:transparent url(
+images/bg-link-right.png
+ no-repeat right top;
+  background:transparent url(
+images/bg-link-left.png
+ no-repeat left top;
+  background:transparent url(
+images/bg-download.gif
+ no-repeat scroll 0 50%;
+  background:url(
+images/wrap-textarea.gif
+ no-repeat;
+  background:url(
+images/wrap-textarea-error.gif
+ no-repeat;
+  background:url(
+images/bg-footer.gif
+ repeat-x left bottom;
+  background:url(
+images/bg-input-text-l.gif
+ no-repeat 0 0;
+  background:url(
+images/bg-input-text-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-yellow.gif
+ no-repeat;
+  background:url(
+images/bg-yellow-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/red-text.gif
+ no-repeat;
+  background:url(
+images/red-text-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-yellow2.gif
+ no-repeat;
+  background:url(
+images/bg-yellow2-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-textbox.gif
+ no-repeat;
+  background:url(
+images/bg-textbox-l.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-yellow2.gif
+ no-repeat;
+  background:url(
+images/bg-yellow2-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/red-text2.gif
+ no-repeat;
+  background:url(
+images/red-text2-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/wrap-textarea3.gif
+;
+  background:url(
+images/bg-attention2.gif
+ no-repeat;
+  background:url(
+images/bg-attention2-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/attention.gif
+ no-repeat 0 50%;
+  background:url(
+images/bg-attention.gif
+ no-repeat;
+  background:url(
+images/bg-attention-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/attention3.gif
+ no-repeat 0 6px;
+  background:url(
+images/bg-zoom.gif
+ no-repeat 100% 2px;
+  background:url(
+images/pdf-icon.gif
+ no-repeat 100% 2px;
+  background:url(
+images/read-more.gif
+ no-repeat 0 0;
+  background:transparent url(
+images/bg-border2.png
+ repeat-x scroll 0 100%;
+  background:url(
+"images/bg-border2.png"
+ repeat-x scroll 0 0 transparent;
+  background:url(
+images/box-sidebar-m.gif
+ repeat-y;
+  background:url(
+images/box-sidebar-t2.gif
+ no-repeat;
+  background:url(
+images/box-sidebar-b.gif
+ no-repeat 0 100%;
+  background:transparent url(
+images/bullet8.gif
+ no-repeat 0 4px;
+  background:url(
+images/bg-search3.gif
+ no-repeat;
+  background:url(
+images/box-sidebar-m.gif
+ repeat-y;
+  background:url(
+images/box-sidebar-t2.gif
+ no-repeat;
+  background:url(
+images/box-sidebar-b.gif
+ no-repeat 0 100%;
+  background:transparent url(
+images/bullet8.gif
+ no-repeat 0 4px;
+  background:url(
+images/wrap-textarea2.gif
+ no-repeat;
+  background:url(
+images/wrap-textarea2-error.gif
+ no-repeat;
+  background:transparent url(
+images/bg-border2.png
+ repeat-x scroll 0 100%;
+  background:transparent url(
+images/bg-input-text-l.gif
+ no-repeat scroll 0 0;
+  background:transparent url(
+images/red-text2.gif
+ no-repeat scroll 0 0;
+  background:transparent url(
+images/btn-petition-l.gif
+ no-repeat scroll 0 0;
+  background:transparent url(
+images/btn-petition-r.gif
+ no-repeat scroll 100% 0;
+  background:url(
+images/btn-petition-l-hover.gif
+ no-repeat;
+  background:url(
+images/btn-petition-r-hover.gif
+ no-repeat 100% 0;
+  background:#e9ecf3 url(
+./images/arrow.gif
+ no-repeat 0 50%;
+  background:#f0f2f8 url(
+./images/arrow.gif
+ no-repeat 0 50%;
+  background:#f7f9fd url(
+./images/arrow.gif
+ no-repeat 0 50%;
+  background:#fcfdff url(
+./images/arrow.gif
+ no-repeat 0 50%;
+  background:#dee1e8 url(
+./images/arrow.gif
+ no-repeat 0 50%;
+  background:#e9ecf3 url(
+./images/arrow-active.gif
+ no-repeat 0 50%;
+  background:#f0f2f8 url(
+./images/arrow-active.gif
+ no-repeat 0 50%;
+  background:#f7f9fd url(
+./images/arrow-active.gif
+ no-repeat 0 50%;
+  background:#fcfdff url(
+./images/arrow-active.gif
+ no-repeat 0 50%;
+  background:#dee1e8 url(
+./images/arrow-active.gif
+ no-repeat 0 50%;
+  background:#e9ecf3 url(
+./images/bullet7.gif
+ no-repeat 0 50%;
+  background:#f0f2f8 url(
+./images/bullet7.gif
+ no-repeat 0 50%;
+  background:#f7f9fd url(
+./images/bullet7.gif
+ no-repeat 0 50%;
+  background:#fcfdff url(
+./images/bullet7.gif
+ no-repeat 0 50%;
+  background:#fff url(
+./images/bullet7.gif
+ no-repeat 0 50%;
+  background:#292d38 url(
+images/bg-visual.gif
+ repeat-x;
+  background:url(
+images/bg-more3.gif
+ no-repeat;
+  background:url(
+images/bg-border3.gif
+ repeat-x 0 100%;
+  background:url(
+images/link-prev.gif
+ no-repeat;
+  background:url(
+images/link-prev.gif
+ no-repeat scroll 0 100%;
+  background:url(
+images/link-next.gif
+ no-repeat scroll 100% 0;
+  background:url(
+images/link-next.gif
+ no-repeat scroll 100% 100%;
+  background:transparent url(
+images/bg-border3.gif
+ repeat-x scroll 0 100%;
+  background:url(
+images/bg-more3.gif
+ no-repeat;
+  background:url(
+images/control-left.png
+ no-repeat;
+  background:url(
+images/control-right.png
+ no-repeat;
+  background:url(
+images/control-inactive.png
+ no-repeat;
+  background:url(
+images/control-active.png
+ no-repeat;
+  background:transparent url(
+images/bg-more.gif
+ no-repeat scroll 0 0;
+  background:transparent url(
+images/bullet02.gif
+ no-repeat scroll 0 7px;
+  background:transparent url(
+images/bullet01.png
+ no-repeat scroll 0 7px;
+  background:transparent url(
+../images/delete-button.gif
+ no-repeat scroll right bottom;
+  background:transparent url(
+../images/delete-button.gif
+ no-repeat scroll left bottom;
+  background:transparent url(
+images/plus.gif
+ no-repeat left 3px;
+  background:url(
+images/roundedcornr_600213_tl.png
+ no-repeat left top;
+  background:url(
+images/roundedcornr_600213_tr.png
+ no-repeat right top;
+  background:url(
+images/roundedcornr_600213_bl.png
+ no-repeat left bottom;
+  background:url(
+images/roundedcornr_600213_br.png
+ no-repeat right bottom;
+  background:url(
+images/roundedcornr_600213_r.png
+ right top repeat-y;
+  background:url(
+images/roundedcornr_600213_tr_gray.png
+ no-repeat right top;
+  background:url(
+images/roundedcornr_600213_bl_gray.png
+ no-repeat left bottom;
+  background:url(
+images/roundedcornr_600213_br_gray.png
+ no-repeat right bottom;
+  background:transparent url(
+images/attention.gif
+ no-repeat scroll 0 0;
+  background:url(
+images/bg-border2.png
+ repeat-x scroll 0 100%;
+  background:url(
+images/bullet9.gif
+ no-repeat 0 4px;
+  background-image:url(
+images/bullet9-selected.gif
+;
+  background:url(
+images/loading.gif
+ no-repeat center center;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background-image:url(
+images/bg-tabset-el-r02.gif
+;
+  background-image:url(
+images/bg-tabset-el-l02.gif
+;
+  background-image:url(
+images/bg-donate-box-b02.gif
+;
+  background-image:url(
+images/bg-donate-box-t02.gif
+;
+  background-image:url(
+images/bg-btn-donate02.png
+;
+  background-image:url(
+images/ico-heart02.gif
+;
+  background:url(
+images/bg-textbox.gif
+ no-repeat 0 0;
+  background:url(
+images/bg-textbox-l.gif
+ no-repeat 100% 0;
+  background-image:url(
+images/bg-yellow2.gif
+;
+  background-image:url(
+images/bg-yellow2-r.gif
+;
+  background:url(
+images/bg-border2.png
+ repeat-x 0 100%;
+  background:url(
+images/red-text-r.gif
+ no-repeat 100% 0;
+  background:url(
+images/bg-input-text-r.gif
+ no-repeat 100% 0;
+  background:transparent url(
+images/btn-petition-l.gif
+ no-repeat scroll 0 0;

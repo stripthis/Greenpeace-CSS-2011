@@ -1,0 +1,468 @@
+/*************************************************************************
+ * MAIN.CSS - Common CSS Features, font, layout, etc.       zzz
+ * @copyright (c) 2011 Greenpeace International               ` _~)
+ * @updated   2011-05-10                                       _(\)
+ *************************************************************************/
+/**
+ * CSS Reset 20110126
+ * from meyerweb.com
+ */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup, 
+menu,nav,output,ruby,section,summary,time,mark,audio,video {
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+body {
+  line-height:1;
+}
+ol, ul {
+  list-style:none;
+}
+blockquote, q {
+  quotes:none;
+}
+blockquote:before,blockquote:after,q:before,q:after {
+  content:'';
+  content:none;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+a {
+  text-decoration:none;
+}
+
+/**************************************************
+ * SHORTCUTS
+ **************************************************/
+.spacer {
+  clear:both; 
+  font-size:0; 
+  line-height:0; 
+  width:0; 
+  height:0;
+}
+.clear.left {
+  clear:left;
+}
+.clear.right { 
+  clear:right; 
+}
+.float.left {
+  float:left; 
+}
+.float.right {
+  float:right;
+}
+.hidden {
+  display:none; 
+}
+
+/**************************************************
+ * Fonts & Links
+ **************************************************/
+body {
+  font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+  /*font-size:0.750em;*/
+  font-size:12px;
+}
+/* links */
+a {
+  color:#66CC00;
+}
+a:hover, .header a:hover, .footer a:hover {
+  text-decoration:underline;
+}
+.header a, .footer a {
+  color:#FFF
+}
+
+/**************************************************
+ * Layout
+ **************************************************/
+.header-holder, .openspace-holder, .content-holder, .footer-holder {
+  float:left;
+  width:100%;
+}
+.header, .openspace,.content-holder2, .footer {
+  width:960px;
+  margin:auto;
+}
+.content.main {
+  float:left;
+  width:625px;
+  margin-right:5px;
+}
+.content.sidebar {
+  float:left;
+  width:285px;
+  margin-left:5px;
+}
+/**************************************************
+ * Header
+ **************************************************/
+.header-holder.first {
+  background-color:#66CC00;
+}
+.header-holder.last {
+  background-color:#53AD01;
+  border-top:2px solid #4EA600;
+}
+.header {
+  padding-left:15px;
+}
+.header.first {
+  height:60px;
+}
+.header.last{
+  height:26px;
+}
+/* logo */
+.header .logo {
+  float:left;
+  padding-top:18px;
+}
+.header .logo a {
+  display:block;
+  width:153px;
+  height:24px;
+  background:transparent url(../images/logo.png) 0 0 no-repeat;
+  text-decoration:none;
+}
+.header .logo a span {
+  visibility:hidden;
+}
+/* Country Selector */
+.header .select-website {
+  border:1px solid blue;
+  float:left;
+  width:350px;
+}
+.header .select-website.form select,
+.header .select-website.form .input {
+  float:left;
+}
+.header .form legend {
+  display:none;
+}
+/* Press and publications */
+.header .press-holder {
+  float:right;
+  margin-right:20px;
+}
+.header .navigation.press {
+  margin:10px 0 0 0;
+  float:right;
+}
+.header .navigation.press ul li {
+  float:left;
+  padding:0 5px;
+}
+.header .navigation.press ul li.first {
+}
+/* Search */
+.header .search.form {
+  float:right;
+  clear:both;
+  margin:7px 0;
+  background:#FFF;
+  border:1px solid #61BA07;
+}
+.header .search.form .input {
+  float:left;
+}
+.header .search.form input.text {
+  border:0;
+  padding-left:5px;
+  height:18px;
+  width:250px;
+}
+.header .search.form input.submit {
+  background: transparent url(../images/16x16/btn-search.gif) 0 0 no-repeat;
+  text-indent: -1000em;
+  border:0;
+  cursor: pointer;
+  width:16px;
+  height:16px;
+  margin:2px;
+}
+/**
+ * Main Navigation 
+ */
+.header .navigation.main {
+  width:650px;
+}
+.header .navigation.main a {
+  display:block;
+}
+.header .navigation.main .level1 li {
+  float:left;
+}
+.header .navigation.main .level1 a {
+  margin-top:-2px;
+  margin:-2px 3px 0px 3px;
+  padding:8px 10px 7px 10px;
+  text-decoration:none;
+  font-weight:bold;
+}
+.header .navigation.main .level1 a:hover,
+.header .navigation.main .level1 .selected a {
+  padding:8px 8px 6px 8px;
+  color:#003300;
+  background-color:#66CC00;
+  border:2px solid #4EA600;
+  border-width:0 2px 1px 2px;
+}
+.header .navigation.main .level1 a.donate {
+  padding:5px 8px;
+  margin-top:1px;
+  color:#66CC00;
+  background-color:#FFF;
+}
+.header .navigation.main .level1 a.donate:hover {
+  color:#FFF;
+  background-color:#FF9707;
+}
+/* level 2&3 */
+.header .navigation.main .level3,
+.header .navigation.main .level2 {
+  display:none;
+  position:absolute;
+  margin-left:5px;
+  padding:0;
+  background-color:#FFF;
+  border:1px solid #5EB60C;
+  width:210px;
+}
+.header .navigation.main .level3 {
+  margin-left:210px;
+}
+.header .navigation.main .level1 .level2 li:hover .level3,
+.header .navigation.main .level1 li:hover .level2 {
+  display:block;
+}
+.header .navigation.main .level2 a:hover,
+.header .navigation.main .level2 a,
+.header .navigation.main .level3 a:hover,
+.header .navigation.main .level3 a, 
+.header .navigation.main .level2 .fold .level3 a,
+.header .navigation.main .level2 .fold .level3 a:hover {
+  width:200px;
+  float:left;
+  clear:right;
+  display:block;
+  padding:5px;
+  margin:0;
+  border:0;
+  color:#000;
+  background:#FFF;
+  font-weight:normal;
+}
+.header .navigation.main .level3 a:hover,
+.header .navigation.main .level2 .fold .level3 a:hover,
+.header .navigation.main .level2 a:hover {
+  color:#FFF;
+  background:#5EB60C;
+}
+.header .navigation.main .level2 .fold a {
+  background:#FFF url(../images/bullets/menu_fold.png) 198px center no-repeat;
+}
+.header .navigation.main .level2 .fold a:hover {
+  background:#5EB60C url(../images/bullets/menu_fold_hover.png) 198px center  no-repeat;
+}
+/* Authentication & signup */
+.header .navigation.authentication {
+  float:right;
+  width:250px;
+  padding-top:6px;
+  margin-right:20px;
+}
+.header .navigation.authentication ul{
+  float:right;
+  font-weight:bold;
+}
+.header .navigation.authentication ul li{
+  float:left;
+}
+.header .navigation.authentication .login {
+  border-right:1px solid #FFF;
+  padding-right:10px;
+}
+.header .navigation.authentication .register {
+  padding-left:10px;
+  text-align:right;
+}
+
+/**************************************************
+ * OpenSpace
+ **************************************************/
+.openspace-holder {
+  background: #4D535F;
+}
+
+/**************************************************
+ * Content
+ **************************************************/
+.content-holder2 {
+  background:transparent url(../images/bg-sidebar.png) 647px 0 repeat-y;
+  margin:10px auto 50px auto;
+  padding-bottom:20px;
+}
+.content.main, .content.sidebar {
+  padding:5px 10px 10px 10px;
+}
+.content .breadcrumb {
+  padding-bottom:5px;
+  width:100%;
+  float:left;
+}
+.content .breadcrumb li {
+  float:left;
+  padding-right:5px;
+}
+.content .breadcrumb li a{
+  padding-right:5px;
+}
+.content h2,
+.content h3 {
+  font-size:2em;
+}
+.content h4 {
+  font-size:1.8em;
+}
+
+/**************************************************
+ * Footer
+ **************************************************/
+.footer-holder.first {
+  background-color:#F7F7F7;
+  border-bottom:3px solid #C6C6C6;
+  padding:10px 0 15px 0;
+}
+.footer-holder.second {
+  background:#005200;
+  border:2px solid #004400;
+  border-width:2px 0 1px 0;
+}
+.footer-holder.last {
+  background-color:#66CC00;
+  padding:10px 0;
+}
+/* titles*/
+.footer h3 {
+  display:none;
+}
+.footer h4 {
+  color:#66CC00;
+  font-weight:bold;
+} 
+/* featured */
+.footer.featured {
+  padding: 10px 0 10px 0;
+}
+.footer.featured ul li {
+  float:left;
+  width:240px;
+}
+/*.footer.featured ul li a*/
+.footer.featured ul li span {
+  float:left;
+  width:125px;
+  padding:10px 0 0 10px;
+  line-height:1.2em;
+}
+.footer.featured ul li img {
+  width:72px;
+  float:left;
+}
+/* sitemap */
+.footer.sitemap{
+  padding-top:20px;
+  min-height:350px;
+  padding-bottom:30px;
+  background:transparent url(../images/footer/bg-footer-img.jpg) 80px 0 no-repeat;
+}
+.footer.sitemap ul.links li ul {
+  float:left;
+  width:150px;
+  margin-right:10px;
+}
+.footer.sitemap ul.links li ul li {
+  padding:3px 0;
+}
+.footer.sitemap ul.links li ul li a {
+  line-height:1.2em;
+  color: #DDD;
+}
+.footer.sitemap ul.links li ul li a:hover{
+  color:#FFF;
+}
+/* facts */
+.footer.sitemap .facts {
+  float:right;
+  background-color:#0F6400;
+  padding:10px;
+  color:#FFF;
+}
+.footer.sitemap .facts .ship {
+  background:transparent url(../images/footer/ship.gif) 0 2px no-repeat;
+  padding-left:30px;
+}
+.footer.sitemap .facts .ships span {
+  display:block;
+}
+.footer.sitemap .facts .ships .name {
+  font-weight:bold;
+}
+/* last footer */
+.footer.last ul li {
+  float:left;
+  padding-right:10px;
+  color:#FFF;
+}
+.footer.last .copyright {
+  font-weight:bold;
+}
+.footer.last ul.links {
+  float:right;
+}
+
+/********************************************************
+ * Rounded Corner & Shadows
+ ********************************************************/
+.header .navigation.main .level1 a:hover,
+.header .navigation.main .level1 .selected a {
+  -moz-border-radius:0 0 4px 4px;
+}
+.header .search.form, 
+.header .navigation.main .level1 a.donate:hover, 
+.header .navigation.main .level1 a.donate {
+  -moz-border-radius:3px;
+}
+.header .navigation.main .level1 .level2 a,
+.header .navigation.main .level1 .level3 a {
+  -moz-border-radius:0;
+}
+.footer .facts {
+  -moz-border-radius:5px;
+}
+.header .navigation.main .level1 a.donate:hover {
+  -moz-box-shadow: inset -3px -3px 3px #F3712F;
+}
+.header .navigation.main .level1 a.donate:active {
+  -moz-box-shadow: inset 3px 3px 3px #F35200;
+}

@@ -1,0 +1,55 @@
+/*************************************************************************
+ * MAIN.JS - Planet3 Client Code Rewrite FTW!
+ * Common Javascript Features                                ♥  
+ * @copyright (c) 2011 Greenpeace International               ` _☮)
+ * @updated   2011-05-10                                       _(\)
+ * @author    Greenpeace web team rocket!
+ *************************************************************************/
+/**
+ * Greenpeace Javascript API 
+ */
+$(function() {
+  /**
+   * Search Box Behavior
+   * @param colorActive text color when active
+   * @param colorInactive text color when inactive
+   * @param value text
+   */
+  $.fn.jSearch = function(o) { 
+    // configuable elements
+    o = $.extend({
+      'colorActive' : '#000',   // text color when active
+      'colorInactive' : '#AAA', // text color when inactive
+      'value' : 'search'        // value in input textfield 
+    }, o || {});
+    // because some people like to chain to things
+    return this.each(function() {
+       if($(this).val() != '' && o.value == '') {
+       o.value = $(this).val();
+     } else {
+       $(this).val(o.value);
+     }
+     $(this)
+        .click(function(){
+          if($(this).val() == o.value) {
+            $(this).val('').css('color',o.colorActive);
+          }
+        })
+       .blur(function(){
+         if($(this).val() == '' || $(this).val() == o.value) {
+            $(this).css('color', o.colorInactive).val(o.value);
+         }
+       });
+    });
+  }
+});
+
+/**
+ * Main
+ */
+$(function() {
+  $('.search.form .input.text input').jSearch({
+    'colorActive' : 'red'
+    'value' : 'searchable'
+  });
+});
