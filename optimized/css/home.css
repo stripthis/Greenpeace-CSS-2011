@@ -11,7 +11,7 @@
   float:left;
   height:50px;
   padding:0 10px 0 60px;
-  color:#777;
+  color:#444;
   overflow:hidden;
   line-height:1.1em;
 }
@@ -24,8 +24,6 @@
 .content .recent-activity .tell-a-friend span {
   background:transparent url(../images/activity.png) top left no-repeat;
 }
-.content .recent-actitity .first {
-}
 .content .recent-activity li a {
   float:left;
   clear:both;
@@ -33,7 +31,7 @@
 }
 /* succes stories */
 .content .victories {
-  margin:10px 0 10px 15px;
+  margin:10px 0 15px 15px;
 }
 .content .victories img{
   position:relative;
