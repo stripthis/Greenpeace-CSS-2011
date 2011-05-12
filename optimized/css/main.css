@@ -82,6 +82,7 @@ body {
   font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
   /*font-size:0.750em;*/
   font-size:12px;
+  color:#333;
 }
 /* links */
 a {
@@ -101,7 +102,7 @@ a.more, ul.act a, a.act{
 }
 a.more.big {
   font-size:1.3em;
-  background:transparent url(../images/14x14/arrow0.png) 0 .4em no-repeat;  
+  background:transparent url(../images/14x14/arrow0.png) 0 center no-repeat;  
 }
 /* no needed but...
 a.more.bigger {
@@ -449,20 +450,49 @@ ul.social .rss {
 }
 .navigation.form-holder select,
 .navigation.form-holder .input,
-.navigation.form-holder .input input{
+.navigation.form-holder .input input {
   float:left;
   font-size:10px;
 }
 /* latest updates */
-.content .latest-updates h1 {
-  background:transparent url(../images/layout/bg-border.png) 0 0 repeat-x;
-  padding-top:20px;
-}
 .content .latest-updates h1,
 .content .latest-updates h2 {
-  padding-left:10px;
+  padding:20px 15px 15px 15px;
+  background:transparent url(../images/layout/bg-border.png) 0 0 repeat-x;
 }
-
+.content .latest-updates .post {
+  float:left;
+  padding-bottom:5px;
+  background:transparent url(../images/layout/bg-border.png) 0 bottom repeat-x;
+}
+.content .latest-updates .post h2,
+.content .latest-updates .post h3 {
+  font-size:1.3em;
+  line-height:1.1em;
+  background:0;
+  padding:0 0 4px 0;
+  margin:0;
+}
+.content .latest-updates .post.with-image .image-holder{
+  float:left;
+  width:130px;
+  margin:10px 0 10px 10px;
+}
+.content .latest-updates .post.with-image .post-content{
+  float:left;
+  width:460px;
+  margin:10px;
+}
+.content .latest-updates .post a {
+  /*  color:#66CC00; blah */
+}
+.content .latest-updates .post .post-content span {
+  color:#777;
+}
+.content .latest-updates .post .post-content p {
+  padding-top:6px;
+  line-height:1.3em;
+}
 /**************************************************
  * Sidebar
  **************************************************/
