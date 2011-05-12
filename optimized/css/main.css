@@ -76,7 +76,7 @@ a {
 }
 
 /**************************************************
- * Fonts & Links & Titles
+ * Fonts, Links, Titles & Lists
  **************************************************/
 body {
   font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -122,6 +122,25 @@ h1, h2 {
 }
 h3, h4 {
   font-size:1.3em;
+}
+/* lists */
+ul.social a {
+  padding:2px 0 6px 27px;
+}
+ul.social .facebook {
+  background:transparent url(../images/16x16/facebook.png) 2px 0 no-repeat;
+}
+ul.social .flickr {
+  background:transparent url(../images/16x16/flickr.png) 2px 0 no-repeat;
+}
+ul.social .twitter {
+  background:transparent url(../images/16x16/twitter.png) 2px 0 no-repeat;
+}
+ul.social .youtube {
+  background:transparent url(../images/16x16/youtube.png) 2px 0 no-repeat;
+}
+ul.social .rss {
+  background:transparent url(../images/16x16/rss.png) 2px 0 no-repeat;
 }
 
 /**************************************************
@@ -512,6 +531,8 @@ h3, h4 {
   display:none;
 }
 .footer h4 {
+  font-size:1.1em;
+  padding-bottom:3px;
   color:#66CC00;
   font-weight:bold;
 } 
@@ -539,7 +560,7 @@ h3, h4 {
   padding-top:20px;
   min-height:350px;
   padding-bottom:30px;
-  background:transparent url(../images/footer/bg-footer-img.jpg) 80px 0 no-repeat;
+  background:transparent url(../images/footer/bg-footer-img.jpg) 90px 0 no-repeat;
 }
 .footer.sitemap ul.links li ul {
   float:left;
