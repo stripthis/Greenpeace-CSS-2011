@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"  lang="en" xml:lang="en">
 <head>
   <title>Welcome | Greenpeace International</title>
+  <base href="http://localhost/greenpeace/optimized/"/>
   <!--
          __   _  __   __     __    ___   _____      __     __       __     _
        /'__`\/\`'__\/'__`\ /'__`\/' _ `\/\  __`\  /'__`\ /'__`\   /'__`\ /'__`\
@@ -12,11 +13,14 @@
          \_/__/                             \/_/     ☮ & ♥ FTW!
 
    -->
-  <base href="http://localhost/greenpeace/optimized/"/>
   <meta name="copyright" content="Greenpeace (c) 1971-2011"/>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
   <meta name="content-language" content="en"/>
   <meta name="robots" content="all"/>
+  <meta name="keywords" content="greenpeace,energy revolution,climate,nuke,forest,gmo,toxic,ocean,whales,peace&love" />
+  <meta name="description" content="Greenpeace exists because this fragile Earth deserves a voice. It needs solutions. It needs change. It needs action. " />
   <!-- Facebook -->
   <meta property="og:type" content="website"/>
   <meta property="og:site_name" content="Greenpeace International"/>
@@ -28,6 +32,17 @@
   <link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
   <!-- RSS Feeds -->
 	<link rel="alternate" type="application/rss+xml" title="Greenpeace News RSS feed" href="http://feeds.feedburner.com/GreenpeaceNews" />
+  <!-- SiteMap -->
+  <link rel="start" href="/" title="home" />
+  <link rel="search" href="/search/" title="search" />
+  <link rel="help" href="/help" title="help" />
+  <link rel="privacy" href="/privacy" title="privacy" />
+  <link rel="copyright" href="/copyright" title="copyright" />
+  <link rel="section" href="/donate/" title="donate" />
+  <link rel="section" href="/campaigns/" title="campaigns" />
+  <link rel="section" href="/multimedia/" title="Multimedia" />
+  <link rel="section" href="/publication/" title="Publication" />
+  <link rel="section" href="/contact/" title="contact" />
   <!-- Style Sheets -->
   <link href="css/main.css" type="text/css" rel="stylesheet" media="screen"/>
   <link href="css/home.css" type="text/css" rel="stylesheet" media="screen"/>
@@ -208,62 +223,67 @@
         </ul>
         <!-- Recent Activities -->
         <div class="recent-activity paperbox">
-          <h2>Recent Activity</h2>
+          <h2>Recent activity</h2>
           <h3>All the latest</h3>
           <ul class="activity">
-            <li class="petition">
-              <strong>Ronald</strong> supports a global network of marine reserves.
-              <a class="bullet" href="#">Add your signature</a>
+            <li class="petition first">
+              <span><strong>Ronald</strong> supports a global network of marine reserves. And now feels much better about it you wouldn't believe.</span>
+              <a class="more big" href="#">Add your signature!</a>
             </li>
-            <li class="donate">
-              <strong>Margarett</strong> just donated INR 300.
-              <a class="bullet" href="#">Also want to donate</a>
+            <li class="donate second">
+              <span><strong>Margarett</strong> just donated INR 300.</span>
+              <a class="more big" href="#">Also want to donate?</a>
             </li>
-            <li class="tell-a-friend">
-              <strong>Biloute</strong> just sent "Get involved" to a friend.
-              <a class="bullet" href="#">Also want to spread the word!</a>
+            <li class="tell-a-friend last">
+              <span><strong>Biloute</strong> just sent a "Get involved" message to a friend.</span>
+              <a class="more big" href="#">Spread the word!</a>
             </li>
           </ul>
         </div>
         <!-- Victories -->
         <div class="victories">
           <h2>Success Story</h2>
-          <p><a href="#">Tasty news from Apple!</a><p>
-          <a class="bullet" href="#">Find out more about our victories</a><p>
-        </div>
-        <!-- Content Type Switcher -->
-        <div class="navigation by-content-types withtabs">
-          <ul>
-            <li class="all selected"><a href="#">All</a></li>
-            <li class="news"><a href="#">News</a></li>
-            <li class="photos"><a href="#">Photos</a></li>
-            <li class="video"><a href="#">Videos</a></li>
-            <li class="publication"><a href="#">Publications</a></li>
-          </ul>
-        </div>
-        <!-- Content Category Switcher -->
-        <div class="form-holder">
-          <form target="#">
-            <fieldset>
-              <legend>Browse by category</legend>
-              <select>
-                <option selected="selected" value="all cateogory">all categories</option>
-                <option value="About Us">About Us</option>
-                <option value="Agriculture">Agriculture</option>
-                <option value="Climate change">Climate change</option>
-                <option value="Forests">Forests</option>
-                <option value="Nuclear">Nuclear</option>
-                <option value="Oceans">Oceans</option>
-                <option value="Other issues">Other issues</option>
-                <option value="Toxics">Toxics</option>
-              </select>
-              <div class="input submit"><input type="submit" value="go"/></div>
-            </fieldset>
-          </form>
+          <div>
+            <a href="#">
+              <img src="http://www.greenpeace.org/international/ReSizes/SuccessStory/PageFiles/22385/vic-antarctica.jpg"/>
+              <h4><span class="overlay">WorldPark Antartica</span></h4>
+            </a>
+          </div>
+          <p><a class="more big" href="#">Find out more about our victories</a></p>
         </div>
         <!-- Latest Update -->
         <div class="lastest-update">
           <h1>Greenpeace Latest Update</h1>
+          <!-- Content Type Switcher -->
+          <div class="navigation by-content-types withtabs">
+            <ul>
+              <li class="all selected"><a href="#">All</a></li>
+              <li class="news"><a href="#">News</a></li>
+              <li class="photos"><a href="#">Photos</a></li>
+              <li class="video"><a href="#">Videos</a></li>
+              <li class="publication"><a href="#">Publications</a></li>
+            </ul>
+          </div>
+          <!-- Content Category Switcher -->
+          <div class="form-holder">
+            <form target="#">
+              <fieldset>
+                <legend>Browse by category</legend>
+                <select>
+                  <option selected="selected" value="all cateogory">all categories</option>
+                  <option value="About Us">About Us</option>
+                  <option value="Agriculture">Agriculture</option>
+                  <option value="Climate change">Climate change</option>
+                  <option value="Forests">Forests</option>
+                  <option value="Nuclear">Nuclear</option>
+                  <option value="Oceans">Oceans</option>
+                  <option value="Other issues">Other issues</option>
+                  <option value="Toxics">Toxics</option>
+                </select>
+                <div class="input submit"><input type="submit" value="go"/></div>
+               </fieldset>
+            </form>
+          </div>
           <div class="news-holder">
             <div class="news">
 	            <div class="img-holder">

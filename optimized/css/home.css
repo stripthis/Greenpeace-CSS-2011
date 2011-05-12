@@ -1,0 +1,47 @@
+/* recent activity */
+.content .recent-activity {
+  float:left;
+  width:585px;
+}
+.content .recent-activity ul li {
+  float:left;
+  width:195px;
+}
+.content .recent-activity span {
+  float:left;
+  height:50px;
+  padding:0 10px 0 60px;
+  color:#777;
+  overflow:hidden;
+  line-height:1.1em;
+}
+.content .recent-activity .petition span {
+  background:transparent url(../images/activity.png) top left no-repeat;
+}
+.content .recent-activity .donate span {
+  background:transparent url(../images/activity.png) center left no-repeat;
+}
+.content .recent-activity .tell-a-friend span {
+  background:transparent url(../images/activity.png) top left no-repeat;
+}
+.content .recent-actitity .first {
+}
+.content .recent-activity li a {
+  float:left;
+  clear:both;
+  margin-top:5px;
+}
+/* succes stories */
+.content .victories {
+  margin:10px 0 10px 15px;
+}
+.content .victories img{
+  position:relative;
+}
+.content .victories h4 {
+  position:absolute;
+  margin-top:-35px;
+  padding-left:15px;
+  color:#66CC00;
+  font-size:1.6em;
+}
