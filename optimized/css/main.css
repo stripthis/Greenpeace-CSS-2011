@@ -486,6 +486,16 @@ ul.social .rss {
 .content .latest-updates .post a {
   /*  color:#66CC00; blah */
 }
+.content .latest-updates .post .date {
+  border-left:1px solid #CCC;
+  padding-left:7px;
+  margin-left:5px;
+}
+.content .latest-updates .post a.comment {
+  background:transparent url(../images/14x14/comment.png) 0 0 no-repeat;
+  padding-left:20px;
+  margin-left:3px;
+}
 .content .latest-updates .post .post-content span {
   color:#777;
 }
