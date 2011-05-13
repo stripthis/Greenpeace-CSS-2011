@@ -3,10 +3,7 @@
  * @copyright (c) 2011 Greenpeace International               ` _~)
  * @updated   2011-05-10                                       _(\)
  *************************************************************************/
-/**
- * CSS Reset 20110126
- * from meyerweb.com
- */
+/* CSS Reset, see meyerweb.com */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,
 a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,
 small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,
@@ -67,10 +64,7 @@ a {
 .noborder {/* no nations! */
   border:0 !important;
 }
-/**
- * Universal clearfix hack
- * http://creativeminds.jd-sign.nl/lessons-learned-concerning-the-clearfix-css-hack/
- */
+/* Universal clearfix hack, see. http://bit.ly/dgdviO */
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -86,71 +80,65 @@ a {
 /* close commented backslash hack */
 
 
-/********************************************************
- * P3 Palette
- * Palette colors, from the style guide. 
- * Needs to be updated with the colors which are actually used
- * Use instead of redclaring the colors.
+/**************************************************
+ * P3 Palette Colors, from the style guide. 
+ * Use instead of redeclaring the colors.
  * Ordered by luminance from dark to light.
- ********************************************************/
-
-/******* Greens *******/
+ * @TODO update with the colors actually in use
+ **************************************************/
+/* Greens */
 .greens-txt-1, 
-.greens-sec-txt		{ color: #003300; }
-.greens-txt-2		{ color: #055905;}
-.greens-txt-3		{ color: #467f0d; }
-.greens-txt-4		{ color: #559f0c; }
+.greens-sec-txt  { color: #003300; }
+.greens-txt-2    { color: #055905;}
+.greens-txt-3    { color: #467f0d; }
+.greens-txt-4    { color: #559f0c; }
 .greens-txt-5, 
-.greens-txt-pri		{ color: #66cc00; }
+.greens-txt-pri  { color: #66cc00; }
 .greens-bg-1, 
-.greens-sec-bg		{ background-color: #003300; }
-.greens-bg-2		{ background-color: #055905; }
-.greens-bg-3		{ background-color: #467f0d; }
-.greens-bg-4		{ background-color: #559f0c; }
+.greens-sec-bg  { background-color: #003300; }
+.greens-bg-2    { background-color: #055905; }
+.greens-bg-3    { background-color: #467f0d; }
+.greens-bg-4    { background-color: #559f0c; }
 .greens-bg-5, 
-.greens-bg-pri		{ background-color: #66cc00; }
-
-/******* Oranges *******/
+.greens-bg-pri    { background-color: #66cc00; }
+/* Oranges */
 .oranges-txt-1, 
-.oranges-txt-pri 	{ color: #ff6b08; }
+.oranges-txt-pri   { color: #ff6b08; }
 .oranges-bg-1, 
-.oranges-bg-pri 	{ background-color: #ff6b08; }
-
-/******* Steel gray/blue hues *******/
-.steels-txt-1		{ color:  #282d38; }
-.steels-txt-2		{ color:  #383e49; }
-.steels-txt-3		{ color:  #4d535f; }
-.steels-txt-4		{ color:  #727886; }
-.steels-txt-5		{ color:  #9ca3b1; }
-.steels-txt-6		{ color:  #bdc3d1; }
-.steels-txt-7		{ color:  #d4dae8; }
-.steels-txt-8		{ color:  #e3e9f8; }
-.steels-txt-9		{ color:  #edf3ff; }
-.steels-bg-1		{ background-color:  #282d38; }
-.steels-bg-2		{ background-color:  #383e49; }
-.steels-bg-3		{ background-color:  #4d535f; }
-.steels-bg-4		{ background-color:  #727886; }
-.steels-bg-5		{ background-color:  #9ca3b1; }
-.steels-bg-6		{ background-color:  #bdc3d1; }
-.steels-bg-7		{ background-color:  #d4dae8; }
-.steels-bg-8		{ background-color:  #e3e9f8; }
-.steels-bg-9		{ background-color:  #edf3ff; }
-
-/******* Blues/gray predominatly blue *******/
-.blues-txt-1		{ color: 6e7f8b; }
-.blues-txt-2		{ color: baccd9; }
-.blues-bg-1			{ background-color: 6e7f8b; }
-.blues-bg-2			{ background-color: baccd9; }
-
-/******* Grays *******/
-.grays-txt-1		{ color: #333333 }
-.grays-txt-2		{ color: #666666 }
-.grays-txt-3		{ color: #8e8e8e }
-.grays-txt-4		{ color: #cccccc }
-.grays-bg-1		{ background-color: #333333 }
-.grays-bg-2		{ background-color: #666666 }
-.grays-bg-3		{ background-color: #8e8e8e }
-.grays-bg-4		{ background-color: #cccccc }
+.oranges-bg-pri   { background-color: #ff6b08; }
+/* Steel gray/blue hues */
+.steels-txt-1    { color:  #282d38; }
+.steels-txt-2    { color:  #383e49; }
+.steels-txt-3    { color:  #4d535f; }
+.steels-txt-4    { color:  #727886; }
+.steels-txt-5    { color:  #9ca3b1; }
+.steels-txt-6    { color:  #bdc3d1; }
+.steels-txt-7    { color:  #d4dae8; }
+.steels-txt-8    { color:  #e3e9f8; }
+.steels-txt-9    { color:  #edf3ff; }
+.steels-bg-1    { background-color:  #282d38; }
+.steels-bg-2    { background-color:  #383e49; }
+.steels-bg-3    { background-color:  #4d535f; }
+.steels-bg-4    { background-color:  #727886; }
+.steels-bg-5    { background-color:  #9ca3b1; }
+.steels-bg-6    { background-color:  #bdc3d1; }
+.steels-bg-7    { background-color:  #d4dae8; }
+.steels-bg-8    { background-color:  #e3e9f8; }
+.steels-bg-9    { background-color:  #edf3ff; }
+/* Blues/gray predominatly blue */
+.blues-txt-1    { color: 6e7f8b; }
+.blues-txt-2    { color: baccd9; }
+.blues-bg-1      { background-color: 6e7f8b; }
+.blues-bg-2      { background-color: baccd9; }
+/* Grays */
+.grays-txt-1    { color: #333333 }
+.grays-txt-2    { color: #666666 }
+.grays-txt-3    { color: #8e8e8e }
+.grays-txt-4    { color: #cccccc }
+.grays-bg-1    { background-color: #333333 }
+.grays-bg-2    { background-color: #666666 }
+.grays-bg-3    { background-color: #8e8e8e }
+.grays-bg-4    { background-color: #cccccc }
 
 /**************************************************
  * Fonts, Links, Titles & Lists
@@ -682,9 +670,6 @@ ul.social .rss {
 .sidebar .form .input.submit {
   margin:10px 20px 0 0;
 }
-.sidebar .form label span.required {
-  display:none;
-}
 .sidebar .form h3 {
   background:transparent url(../images/layout/bg-border.png) 0 bottom repeat-x;
 }
@@ -713,7 +698,7 @@ ul.social .rss {
 }
 .footer-holder.last {
   background-color:#66CC00;
-  padding:10px 0;
+  padding:31px 0 24px 0;
 }
 /* titles*/
 .footer h3 {
@@ -814,16 +799,16 @@ ul.social .rss {
 }
 /* Sugar classes - shadow */
 .shadow-light{
-	-moz-box-shadow:  3px 3px 3px rgba(0,0,0,0.1);
-	box-shadow:  3px 3px 3px rgba(0,0,0,0.1);	
+  -moz-box-shadow:  3px 3px 3px rgba(0,0,0,0.1);
+  box-shadow:  3px 3px 3px rgba(0,0,0,0.1);  
 }
 .shadow-medium{
-	-moz-box-shadow: inset -3px -3px 3px #F3712F;
-	box-shadow:  7px 7px 7px rgba(0,0,0,0.25);	
+  -moz-box-shadow: inset -3px -3px 3px #F3712F;
+  box-shadow:  7px 7px 7px rgba(0,0,0,0.25);  
 }
 .shadow-heavy{
-	-moz-box-shadow: inset -3px -3px 3px #F3712F;
-	box-shadow:  13px 13px 13px rgba(0,0,0,0.35);	
+  -moz-box-shadow: inset -3px -3px 3px #F3712F;
+  box-shadow:  13px 13px 13px rgba(0,0,0,0.35);  
 }
 /* Shadow */
 .header .navigation.main .level1 a.donate:hover {
