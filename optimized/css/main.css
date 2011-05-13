@@ -75,6 +75,23 @@ a {
   border:0 !important;
 }
 
+/* slightly enhanced, universal clearfix hack
+http://creativeminds.jd-sign.nl/lessons-learned-concerning-the-clearfix-css-hack/
+*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
 /**************************************************
  * Fonts, Links, Titles & Lists
  **************************************************/
@@ -659,31 +676,67 @@ ul.social .rss {
 /********************************************************
  * Rounded Corner & Shadows
  ********************************************************/
+/* Sugar classes - border radius */
+.border-radius-light{
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.border-radius-medium{
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+.border-radius-heavy{
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+}
+/* Sugar classes - shadow */
+.shadow-light{
+	-moz-box-shadow:  3px 3px 3px rgba(0,0,0,0.1);
+	box-shadow:  3px 3px 3px rgba(0,0,0,0.1);	
+}
+.shadow-medium{
+	-moz-box-shadow: inset -3px -3px 3px #F3712F;
+	box-shadow:  7px 7px 7px rgba(0,0,0,0.25);	
+}
+.shadow-heavy{
+	-moz-box-shadow: inset -3px -3px 3px #F3712F;
+	box-shadow:  13px 13px 13px rgba(0,0,0,0.35);	
+}
+/* Shadow */
+.header .navigation.main .level1 a.donate:hover {
+  -moz-box-shadow: inset -3px -3px 3px #F3712F;
+  box-shadow: inset -3px -3px 3px #F3712F;
+}
+.header .navigation.main .level1 a.donate:active {
+  -moz-box-shadow: inset 3px 3px 3px #F35200;
+  box-shadow: 3px 3px 3px #F35200;
+}
+.content .paperbox {
+  -moz-box-shadow: 1px 5px 5px #EEE;
+  box-shadow: 1px 5px 5px #EEE;
+}
+/* radius */
 .header .navigation.main .level1 a:hover,
 .header .navigation.main .level1 .selected a {
   -moz-border-radius:0 0 4px 4px;
+  border-radius:0 0 4px 4px;
 }
 .form .input.text input, 
 .header .navigation.main .level1 a.donate:hover, 
 .header .navigation.main .level1 a.donate {
   -moz-border-radius:3px;
+  border-radius:3px;
 }
 .header .navigation.main .level1 .level2 a,
 .header .navigation.main .level1 .level3 a {
   -moz-border-radius:0;
+  border-radius:0;
 }
 .footer .facts {
   -moz-border-radius:5px;
-}
-.header .navigation.main .level1 a.donate:hover {
-  -moz-box-shadow: inset -3px -3px 3px #F3712F;
-}
-.header .navigation.main .level1 a.donate:active {
-  -moz-box-shadow: inset 3px 3px 3px #F35200;
-}
-.content .paperbox {
-  -moz-box-shadow: 1px 5px 5px #EEE;
+  border-radius:5px;
 }
 .content .navigation.with-tabs a {
   -moz-border-radius:0 5px 0 0;
+  border-radius:0 5px 0 0;
 }
