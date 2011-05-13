@@ -49,13 +49,6 @@ a {
 /**************************************************
  * SHORTCUTS
  **************************************************/
-.spacer {
-  clear:both; 
-  font-size:0; 
-  line-height:0; 
-  width:0; 
-  height:0;
-}
 .clear.left {
   clear:left;
 }
@@ -74,18 +67,18 @@ a {
 .noborder {/* no nations! */
   border:0 !important;
 }
-
-/* slightly enhanced, universal clearfix hack
-http://creativeminds.jd-sign.nl/lessons-learned-concerning-the-clearfix-css-hack/
-*/
+/**
+ * Universal clearfix hack
+ * http://creativeminds.jd-sign.nl/lessons-learned-concerning-the-clearfix-css-hack/
+ */
 .clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
@@ -166,10 +159,44 @@ ul.social .rss {
  **************************************************/
 .form .input.text input {
   border:1px solid #66CC00;
+  padding:3px;
+}
+.form .input.text input:active {
+}
+.form .input.text {
+  padding:2px;
 }
 .form .help {
   display:none;
 }
+.form label {
+  padding:5px 5px 5px 0;
+  margin-right:3px;
+  color:#777;
+}
+.form label span.required {
+  color:#FF4A06;
+  font-weight:bold;
+  padding-left:2px;
+}
+/* special button */
+.content .form .input.submit.button,
+.content .form .input.submit.button input {
+  float:right;
+}
+.form .input.submit.button input {
+  background:#FF4A06;
+  color:#FFF;
+  border:0;
+  font-weight:bold;
+  padding:5px 10px;
+  margin:5px 0;
+  font-size:1em;
+}
+.content .form .input.submit input:hover {
+  background:#FF7306;
+}
+
 /**************************************************
  * Layout
  **************************************************/
@@ -236,6 +263,9 @@ ul.social .rss {
   width:350px;
   margin:16px 0 0 22px;
 }
+.header .select-website .input {
+  padding:0;
+}
 .header select {
   float:left;
   height:25px;
@@ -244,7 +274,7 @@ ul.social .rss {
   border:2px solid #61BA07;
   font-size:1em;
 }
- .header option {
+.header option {
 }
 .header .select-website.form .input {
   float:left;
@@ -278,10 +308,11 @@ ul.social .rss {
 }
 .header .search.form .input {
   float:left;
+  padding:0;
 }
 .header .search.form input.text {
   border:0;
-  padding-left:5px;
+  padding:0 0 0 5px;
   height:18px;
   width:250px;
 }
@@ -529,6 +560,7 @@ ul.social .rss {
   padding-top:6px;
   line-height:1.3em;
 }
+
 /**************************************************
  * Sidebar
  **************************************************/
@@ -572,7 +604,31 @@ ul.social .rss {
   background:transparent url(../images/social.png) -140px 0 no-repeat;
 }
 .sidebar .social a span {
-  visibility:hidden;
+  display:none;
+}
+/* signup form */
+.sidebar .form .input,
+.sidebar .form label {
+  float:left;
+  margin-top:2px;
+}
+.sidebar .form .input.submit {
+  margin:10px 20px 0 0;
+}
+.sidebar .form label span.required {
+  display:none;
+}
+.sidebar .form h3 {
+  background:transparent url(../images/layout/bg-border.png) 0 bottom repeat-x;
+}
+.sidebar .form legend {
+  display:none;
+}
+.sidebar .form .input.select select {
+  width:270px;
+}
+.sidebar .form .input.text input {
+  width:260px;
 }
 
 /**************************************************
@@ -721,7 +777,9 @@ ul.social .rss {
   -moz-border-radius:0 0 4px 4px;
   border-radius:0 0 4px 4px;
 }
-.form .input.text input, 
+.form .input.text input,
+.content .form .input.submit.button input,
+.header .search.form,
 .header .navigation.main .level1 a.donate:hover, 
 .header .navigation.main .level1 a.donate {
   -moz-border-radius:3px;
