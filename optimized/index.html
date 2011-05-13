@@ -69,6 +69,7 @@
         <form id="selectwebsite" target="#">
           <fieldset>
             <legend>Select a website</legend>
+            <div class="input select">
             <select>
               <option value="http://www.greenpeace.org/international" selected="selected">International (English)</option>
               <option value="http://www.greenpeace.org/afrique/">Africa - Congo (Français)</option>
@@ -121,6 +122,7 @@
               <option value="http://www.greenpeace.org.uk/">United Kingdom (English)</option>
               <option value="http://www.greenpeace.org/usa">USA (English)</option>
             </select>
+            </div>
             <div class="input submit"><input type="submit" value="go"/></div>
           </fieldset>
         </form>
@@ -265,7 +267,7 @@
             </ul>
           </div>
           <!-- Content Category Switcher -->
-          <div class="navigation by-category form-holder">
+          <div class="navigation by-category form">
             <form target="#" method="post">
               <fieldset>
                 <legend>Browse by category</legend>
@@ -381,6 +383,29 @@
       <!-- Sidebar -->
       <div class="sidebar-holder">
         <div class="content sidebar">
+          <!-- Registration form -->
+          <div class="form register sidebar-box">
+            <h3>Sign Up for Action Alert</h3>
+            <form id="signup" method="post" action="/signup" accept-charset="utf-8">
+              <fieldset>
+                <legend>Please enter your details bellow</legend>
+                <div class="input text required">
+                  <label for="Name">Username<span class="required">*</span></label>
+                  <input name="data[User][name]" class="required" maxlength="150" id="UserName" type="text"/>
+                  <span class="help tooltip">Please enter your full name, example: Mr. Splashy Pant</span>
+                </div>
+                <div class="input text required">
+                  <label for="Name">Email<span class="required">*</span></label>
+                  <input name="data[User][email]" class="required" maxlength="150" id="UserEmail" type="text"/>
+                  <span class="help tooltip">Please enter your email address, example: splashy.pant@greenpeace.org</span>
+                </div>
+                <div class="input submit">
+                  <input name="submit" class="submit" type="submit" value="Sign Up"/>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <!-- Social Network Links -->
           <div class="follow-us social sidebar-box">
             <h3>Follow Us On...</h3>
             <ul>

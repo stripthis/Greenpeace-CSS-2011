@@ -63,7 +63,6 @@ jQuery(function($) {
  * Run at document.ready
  * Changed to the more verbose form for readability.
  */
-
 jQuery(document).ready(function($){
   $('.search .text input').jSearch();
 });

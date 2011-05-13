@@ -62,7 +62,7 @@ a {
 .clear.right { 
   clear:right; 
 }
-.float.left {
+.float,.float.left {
   float:left; 
 }
 .float.right {
@@ -94,7 +94,7 @@ a:hover, .header a:hover, .footer a:hover {
 .header a, .footer a {
   color:#FFF
 }
-a.more, ul.act a, a.act{
+a.more, ul.act a, a.act {
   font-size:1.1em;
   display:block;
   padding:5px 0 5px 20px;
@@ -144,6 +144,15 @@ ul.social .rss {
   background:transparent url(../images/16x16/rss.png) 2px 0 no-repeat;
 }
 
+/**************************************************
+ * Forms
+ **************************************************/
+.form .input.text input {
+  border:1px solid #66CC00;
+}
+.form .help {
+  display:none;
+}
 /**************************************************
  * Layout
  **************************************************/
@@ -435,22 +444,22 @@ ul.social .rss {
   border-right:2px solid #CECECE;
 }
 /* content switch with select form */
-.navigation.form-holder {
+.navigation.form {
   float:right;
   clear:both;
   background:#F8FAFF;
   width:610px;
   padding:5px;
 }
-.navigation.form-holder legend {
+.navigation.form legend {
   display:none;
 }
-.navigation.form-holder form {
+.navigation.form form {
   float:right;
 }
-.navigation.form-holder select,
-.navigation.form-holder .input,
-.navigation.form-holder .input input {
+.navigation.form select,
+.navigation.form .input,
+.navigation.form .input input {
   float:left;
   font-size:10px;
 }
@@ -654,7 +663,7 @@ ul.social .rss {
 .header .navigation.main .level1 .selected a {
   -moz-border-radius:0 0 4px 4px;
 }
-.header .search.form, 
+.form .input.text input, 
 .header .navigation.main .level1 a.donate:hover, 
 .header .navigation.main .level1 a.donate {
   -moz-border-radius:3px;
