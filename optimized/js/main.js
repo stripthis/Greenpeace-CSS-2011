@@ -57,9 +57,13 @@ jQuery(function($) {
     });
   }
 });
+
 /**
  * Main
+ * Run at document.ready
+ * Changed to the more verbose form for readability.
  */
-$(function() {
+
+jQuery(document).ready(function($){
   $('.search .text input').jSearch();
 });
