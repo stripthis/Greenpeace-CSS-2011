@@ -462,7 +462,7 @@ ul.social .rss {
 }
 .content .latest-updates .post {
   float:left;
-  padding-bottom:5px;
+  padding:5px 0;
   background:transparent url(../images/layout/bg-border.png) 0 bottom repeat-x;
 }
 .content .latest-updates .post h2,

@@ -6,7 +6,7 @@
 /**
  * Greenpeace Javascript API 
  */
-$(function() {
+jQuery(function($) {
   /**
    * Search Box Behavior
    * @param 'colorActive' text color when active
