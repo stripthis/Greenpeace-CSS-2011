@@ -332,8 +332,6 @@ ul.social .rss {
   border:2px solid #61BA07;
   font-size:1em;
 }
-.header option {
-}
 .header .select-website.form .input {
   float:left;
   margin-left:2px;
@@ -614,6 +612,48 @@ ul.social .rss {
 }
 .content .latest-updates .post .post-content p {
   padding-top:6px;
+}
+/* pagination */
+.content .paging {
+  float:left;
+  width:625px;
+  margin-top:7px;
+}
+.content .paging .counter {
+  padding-top:10px;
+  margin-top:7px;
+  background:transparent url(../images/layout/bg-border.png) 0 0 repeat-x;
+}
+.content .paging .previous {
+  float:left;
+  margin-left:10px;
+}
+.content .paging .next {
+  float:right;
+  margin-right:10px;
+}
+.content .paging .pages {
+  position:float;
+  margin:auto;
+  text-align:center;
+}
+.content .paging .pages a{
+  background:#edf3ff;
+  padding:3px 6px;
+}
+.content .paging .pages a:hover,
+.content .paging .pages .current a{
+  background:#66CC00;
+  color:#FFF;
+  text-decoration:none;
+}
+.content .paging .next a {
+  padding-right:20px;
+  background:transparent url(../images/10x10/arrow0.png) right center no-repeat;
+}
+.content .paging .previous a {
+  padding-left:20px;
+  background:transparent url(../images/10x10/arrow1.png) left center no-repeat;
 }
 
 /**************************************************
