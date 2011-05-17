@@ -79,7 +79,6 @@ a {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-
 /**************************************************
  * P3 Palette Colors, from the style guide. 
  * Use instead of redeclaring the colors.
@@ -88,34 +87,34 @@ a {
  **************************************************/
 /* Greens */
 .greens-txt-1, 
-.greens-sec-txt  { color: #003300; }
-.greens-txt-2    { color: #055905;}
-.greens-txt-3    { color: #467f0d; }
-.greens-txt-4    { color: #559f0c; }
+.greens-sec-txt { color: #003300; }
+.greens-txt-2   { color: #055905;}
+.greens-txt-3   { color: #467f0d; }
+.greens-txt-4   { color: #559f0c; }
 .greens-txt-5, 
-.greens-txt-pri  { color: #66cc00; }
+.greens-txt-pri { color: #66cc00; }
 .greens-bg-1, 
 .greens-sec-bg  { background-color: #003300; }
 .greens-bg-2    { background-color: #055905; }
 .greens-bg-3    { background-color: #467f0d; }
 .greens-bg-4    { background-color: #559f0c; }
 .greens-bg-5, 
-.greens-bg-pri    { background-color: #66cc00; }
+.greens-bg-pri  { background-color: #66cc00; }
 /* Oranges */
 .oranges-txt-1, 
-.oranges-txt-pri   { color: #ff6b08; }
+.oranges-txt-pri{ color: #ff6b08; }
 .oranges-bg-1, 
-.oranges-bg-pri   { background-color: #ff6b08; }
-/* Steel gray/blue hues */
-.steels-txt-1    { color:  #282d38; }
-.steels-txt-2    { color:  #383e49; }
-.steels-txt-3    { color:  #4d535f; }
-.steels-txt-4    { color:  #727886; }
-.steels-txt-5    { color:  #9ca3b1; }
-.steels-txt-6    { color:  #bdc3d1; }
-.steels-txt-7    { color:  #d4dae8; }
-.steels-txt-8    { color:  #e3e9f8; }
-.steels-txt-9    { color:  #edf3ff; }
+.oranges-bg-pri { background-color: #ff6b08; }
+/* Steel gray-blue hues */
+.steels-txt-1   { color:  #282d38; }
+.steels-txt-2   { color:  #383e49; }
+.steels-txt-3   { color:  #4d535f; }
+.steels-txt-4   { color:  #727886; }
+.steels-txt-5   { color:  #9ca3b1; }
+.steels-txt-6   { color:  #bdc3d1; }
+.steels-txt-7   { color:  #d4dae8; }
+.steels-txt-8   { color:  #e3e9f8; }
+.steels-txt-9   { color:  #edf3ff; }
 .steels-bg-1    { background-color:  #282d38; }
 .steels-bg-2    { background-color:  #383e49; }
 .steels-bg-3    { background-color:  #4d535f; }
@@ -125,20 +124,20 @@ a {
 .steels-bg-7    { background-color:  #d4dae8; }
 .steels-bg-8    { background-color:  #e3e9f8; }
 .steels-bg-9    { background-color:  #edf3ff; }
-/* Blues/gray predominatly blue */
-.blues-txt-1    { color: 6e7f8b; }
-.blues-txt-2    { color: baccd9; }
-.blues-bg-1      { background-color: 6e7f8b; }
-.blues-bg-2      { background-color: baccd9; }
+/* Blues-gray predominatly blue */
+.blues-txt-1    { color: #6e7f8b; }
+.blues-txt-2    { color: #baccd9; }
+.blues-bg-1     { background-color: #6e7f8b; }
+.blues-bg-2     { background-color: #baccd9; }
 /* Grays */
 .grays-txt-1    { color: #333333 }
 .grays-txt-2    { color: #666666 }
 .grays-txt-3    { color: #8e8e8e }
 .grays-txt-4    { color: #cccccc }
-.grays-bg-1    { background-color: #333333 }
-.grays-bg-2    { background-color: #666666 }
-.grays-bg-3    { background-color: #8e8e8e }
-.grays-bg-4    { background-color: #cccccc }
+.grays-bg-1     { background-color: #333333 }
+.grays-bg-2     { background-color: #666666 }
+.grays-bg-3     { background-color: #8e8e8e }
+.grays-bg-4     { background-color: #cccccc }
 
 /**************************************************
  * Fonts, Links, Titles & Lists
@@ -148,6 +147,7 @@ body {
   /*font-size:0.750em;*/
   font-size:12px;
   color:#333;
+  line-height:1.3em;
 }
 /* links */
 a {
@@ -163,7 +163,7 @@ a.more, ul.act a, a.act {
   font-size:1.1em;
   display:block;
   padding:5px 0 5px 20px;
-  background:transparent url(../images/10x10/arrow0.png) 2px .5em no-repeat;
+  background:transparent url(../images/10x10/arrow0.png) 2px .65em no-repeat;
 }
 a.more.big {
   font-size:1.3em;
@@ -213,10 +213,11 @@ ul.social .rss {
  * Forms
  **************************************************/
 .form .input.text input {
-  border:1px solid #66CC00;
+  border:1px solid #559F0C;
   padding:3px;
 }
-.form .input.text input:active {
+.form .input.text input:focus {
+  border:1px solid #66CC00;
 }
 .form .input.text {
   padding:2px;
@@ -240,7 +241,7 @@ ul.social .rss {
   float:right;
 }
 .form .input.submit.button input {
-  background:#FF4A06;
+  background:#FF6B08;
   color:#FFF;
   border:0;
   font-weight:bold;
@@ -249,7 +250,8 @@ ul.social .rss {
   font-size:1em;
 }
 .content .form .input.submit input:hover {
-  background:#FF7306;
+  background:#FF7708;
+  cursor: pointer;
 }
 
 /**************************************************
@@ -286,7 +288,8 @@ ul.social .rss {
 }
 .header-holder.last {
   background-color:#53AD01;
-  border-top:2px solid #4EA600;
+  border-top:1px solid #4EA600;
+  height:27px;
 }
 .header {
   padding-left:15px;
@@ -344,7 +347,7 @@ ul.social .rss {
   margin-right:20px;
 }
 .header .navigation.press {
-  margin:10px 0 0 0;
+  margin:10px 0 4px 0;
   float:right;
 }
 .header .navigation.press ul li {
@@ -357,7 +360,7 @@ ul.social .rss {
 .header .search.form {
   float:right;
   clear:both;
-  margin:7px 0;
+  margin:0 0 7px 0;
   background:#FFF;
   border:1px solid #61BA07;
 }
@@ -367,9 +370,9 @@ ul.social .rss {
 }
 .header .search.form input.text {
   border:0;
-  padding:0 0 0 5px;
-  height:18px;
-  width:250px;
+  padding:2px 0 2px 5px;
+  height:16px;
+  width:245px;
 }
 .header .search.form input.submit {
   background: transparent url(../images/16x16/btn-search.gif) 0 0 no-repeat;
@@ -393,23 +396,22 @@ ul.social .rss {
   float:left;
 }
 .header .navigation.main .level1 a {
-  margin-top:-2px;
-  margin:-2px 3px 0px 3px;
-  padding:8px 10px 7px 10px;
+  margin:-1px 3px 0 3px;
+  padding:6px 10px 5px 10px;
   text-decoration:none;
   font-weight:bold;
 }
 .header .navigation.main .level1 a:hover,
 .header .navigation.main .level1 .selected a {
-  padding:8px 8px 6px 8px;
+  padding:6px 8px 4px 8px;
   color:#003300;
   background-color:#66CC00;
   border:2px solid #4EA600;
   border-width:0 2px 1px 2px;
 }
 .header .navigation.main .level1 a.donate {
-  padding:5px 8px;
-  margin-top:1px;
+  padding:3px 6px;
+  margin-top:2px;
   color:#66CC00;
   background-color:#FFF;
 }
@@ -580,7 +582,6 @@ ul.social .rss {
 .content .latest-updates .post h2,
 .content .latest-updates .post h3 {
   font-size:1.3em;
-  line-height:1.1em;
   background:0;
   padding:0 0 4px 0;
   margin:0;
@@ -613,7 +614,6 @@ ul.social .rss {
 }
 .content .latest-updates .post .post-content p {
   padding-top:6px;
-  line-height:1.3em;
 }
 
 /**************************************************
@@ -646,7 +646,7 @@ ul.social .rss {
   height:48px;
   background:transparent url(../images/social.png) 0 0 no-repeat;
   text-decoration:none;
-  margin-right:5px;
+  margin-right:8px;
 }
 .sidebar .social a.rss {
   width:45px;
@@ -687,8 +687,8 @@ ul.social .rss {
  * Footer
  **************************************************/
 .footer-holder.first {
-  background-color:#F7F7F7;
-  border-bottom:3px solid #C6C6C6;
+  background-color:#F5F7F7;
+  border-bottom:3px solid #C7C7C6;
   padding:10px 0 15px 0;
 }
 .footer-holder.second {
@@ -711,41 +711,39 @@ ul.social .rss {
   font-weight:bold;
 } 
 /* featured */
-.footer.featured {
-  padding: 10px 0 10px 0;
+.footer.highlight {
+  padding: 15px 0 15px 10px;
 }
-.footer.featured ul li {
+.footer.highlight ul li {
   float:left;
   width:240px;
 }
-/*.footer.featured ul li a*/
-.footer.featured ul li span {
+.footer.highlight ul li span {
   float:left;
-  width:125px;
-  padding:10px 0 0 10px;
-  line-height:1.2em;
+  width:120px;
+  padding:5px 0 0 10px;
 }
-.footer.featured ul li img {
+.footer.highlight ul li img {
   width:72px;
+  height:71px;
   float:left;
 }
 /* sitemap */
 .footer.sitemap{
   padding-top:20px;
   min-height:350px;
-  padding-bottom:30px;
-  background:transparent url(../images/footer/bg-footer-img.jpg) 90px 0 no-repeat;
+  padding-bottom:44px;
+  background:transparent url(../images/footer/bg-footer-img.jpg) 110px 0 no-repeat;
 }
 .footer.sitemap ul.links li ul {
   float:left;
-  width:150px;
-  margin-right:10px;
+  width:140px;
+  margin-left:15px;
 }
 .footer.sitemap ul.links li ul li {
   padding:3px 0;
 }
 .footer.sitemap ul.links li ul li a {
-  line-height:1.2em;
   color: #DDD;
 }
 .footer.sitemap ul.links li ul li a:hover{
@@ -755,8 +753,9 @@ ul.social .rss {
 .footer.sitemap .facts {
   float:right;
   background-color:#0F6400;
-  padding:10px;
+  padding:14px 15px 19px 15px;
   color:#FFF;
+  width:321px;
 }
 .footer.sitemap .facts .ship {
   background:transparent url(../images/footer/ship.gif) 0 2px no-repeat;
@@ -771,7 +770,7 @@ ul.social .rss {
 /* last footer */
 .footer.last ul li {
   float:left;
-  padding-right:10px;
+  padding-right:17px;
   color:#FFF;
 }
 .footer.last .copyright {
