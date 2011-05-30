@@ -37,7 +37,7 @@ foreach ($menu_pages as $key => $value):
 	
 	<li class="menu-item level-1 has-child">
 		<a href="#"><?php echo $key ?></a>
-		<ul class="level-2-pages">
+		<ul class="dropdown-level-2 dropdown">
 <?php 	
 		// Generate level II
 		foreach ($value as $key_ii => $value_ii): 
@@ -49,12 +49,12 @@ foreach ($menu_pages as $key => $value):
 			else:	?>
 			<li class="menu-item level-2 has-child">
 				<a href="#"><?php echo $key_ii ?></a>
-				<ul class="level-2-pages">
+				<ul class="dropdown-level-3 dropdown">
 <?php				
 					foreach ($value_ii as $key_iii => $value_iii): ?>
 						
 					
-					<li class="menu-item level-2 no-child"><a href="#"><?php echo $value_iii ?></a></li>
+					<li class="menu-item level-3"><a href="#"><?php echo $value_iii ?></a></li>
 					
 	
 <?php				endforeach; ?>

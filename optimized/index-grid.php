@@ -59,7 +59,7 @@
 <div id="container" class="ltr home full-width line">
 	
 	<!-- Topmost bar of header -->
-	<div class="header-holder first">
+	<div id="header-first" class="header-holder first">
 		<div class="header first full-width line">
 			<div class="logo unit">
 				<a href="#" title="Greenpeace"><span class="screenreader">Greenpeace</span></a>
@@ -92,10 +92,10 @@
 				</div>										
 			</div>
 		</div>
-	</div><!-- / .header-holder.first -->
+	</div>
 	
 	<!-- second bar of header -->
-	<div class="header-holder last">
+	<div id="header-last" class="header-holder last">
 		<div class="header last">
 			
 			<!-- Main Navigation -->
@@ -127,7 +127,7 @@
 	</div>
 	
 	 <!-- Main Content -->
-	<div class="content-holder">
+	<div id="content" class="content-holder">
 		<div class="content main">
 		
 			<ul class="breadcrumb">
@@ -242,45 +242,186 @@
 				</div>								
 			</div>						
 		</div>
-	</div>
-	
-	<div class="sidebar-holder">
-		<div class="sidebar-inner">
-			
-			<div class="form widget register sidebar-box">
-				<h3 class="widget-title">Sign Up for Action Alert</h3>
-				<fieldset>
-					<legend>Please enter your details bellow</legend>
+
+		<div class="sidebar-holder">
+			<div class="sidebar-inner">
+				
+				<?php /*
+				<!-- Newsletter sign up widget -->
+				<div class="form widget register sidebar-box">
+					<h3 class="widget-title">Sign Up for Action Alert</h3>
+					<fieldset>
+						<legend>Please enter your details bellow</legend>
+							
+							<div class="input text required name">
+								<label for="Name">Your name<span class="required">*</span></label>
+								<input name="data[User][name]" class="required" maxlength="150" id="UserName" type="text"/>
+								<span class="help tooltip">Please enter your full name, example: Mr. Splashy Pant</span>						
+							</div>
+							<div class="input text required email">
+								<label for="Name">Your email<span class="required">*</span></label>
+								<input name="data[User][email]" class="required" maxlength="150" id="UserEmail" type="text"/>
+								<span class="help tooltip">Please enter your email address, example: splashy.pant@greenpeace.org</span>
+							</div>
+							<div class="input select required county">
+								<label for="Country">Select a country<span class="required">*</span></label>
+								<select class="county-selector">
+								
+	<?php 						// Loop over array of countries...
+									include('php_partials/countries.php');
+								
+									foreach ($countries as $iso => $long):
+								?>
+									<option value="<?php echo $iso ?>"><?php echo $long ?></option>
+								<?php
+									endforeach; ?>	
+								</select>
+							</div>	
+							 <div class="input submit button">
+							 	<input type="submit" value="Sign Up ›"/>
+							 </div>				
+					</fieldset>
+				</div>
+				<!-- end: Newsletter sign up widget -->	
+				
+				<!-- Latest Photos widget -->
+				<div class="widget latest-photos sidebar-box">
+					<h3 class="widget-title">Latest photos</h3>
+					<ul class="photos widget-content">
+		<?php 		include("php_partials/latest_photos.php");
+					foreach($latest_photos as $photo):				?>
+						<li class="photo">
+							<a title="?php echo $photo['title'] ?>" href="#">
+								<img src="<?php echo $photo['src'] ?>" alt="<?php echo $photo['title'] ?>" />
+							</a>	
+						</li>
 						
-						<div class="input text required name">
-							<label for="Name">Your name<span class="required">*</span></label>
-							<input name="data[User][name]" class="required" maxlength="150" id="UserName" type="text"/>
-							<span class="help tooltip">Please enter your full name, example: Mr. Splashy Pant</span>						
-						</div>
-						<div class="input text required email">
-							<label for="Name">Your email<span class="required">*</span></label>
-							<input name="data[User][email]" class="required" maxlength="150" id="UserEmail" type="text"/>
-							<span class="help tooltip">Please enter your email address, example: splashy.pant@greenpeace.org</span>
-						</div>
-						<div class="input select required county">
-							<label for="Country">Select a country<span class="required">*</span></label>
-							<select class="county-selector">
-							
-<?php 						// Loop over array of countries...
-								include('php_partials/countries.php');
-							
-								foreach ($countries as $iso => $long):
-							?>
-								<option value="<?php echo $iso ?>"><?php echo $long ?></option>
-							<?php
-								endforeach; ?>	
-							</select>
-						</div>	
-						 <div class="input submit button">
-						 	<input type="submit" value="Sign Up ›"/>
-						 </div>				
-				</fieldset>
-			</div>	
+		<?php 		endforeach; ?>
+						
+						
+					</ul>
+					
+				</div>
+				<!-- end: Latest Photos widget -->
+				 
+				<!-- What You Can Do - widget -->
+				<div class="widget latest-actions sidebar-box">
+					<h3 class="widget-title">Things you can do:</h3>
+					<ul class="act">
+		<?php
+					include("php_partials/footer-links.php");
+					foreach($footer_links["Take Actions"] as $action): ?>
+						<li><a href="#"><?php echo $action ?></li>
+		
+				<?php
+					endforeach;
+				?>
+					</ul>
+					 */ ?>
+				</div>
+			</div>
+		</div>
+	 
+	 <!-- False Footer Last Events -->
+	 <div class="footer-holder first">
+	 	<div class="footer highlight">
+	 		<ul class="m-list">
+	 			<li class="m-item unit">
+	 				<div="m-item-media">
+	 					<img src="http://www.greenpeace.org/international/Global/international/artwork/other/2011/footer/unfriendcoal_btn.jpg" alt="Help get Facebook to unfriend coal" height="71" width="72">
+	 				</div>	
+	 				<div="m-item-text">
+	 					Help get Facebook to unfriend coal
+	 				</div> 			
+	 			</li>
+	 		</ul>
+	 		<ul class="m-list">
+	 			<li class="m-item unit">
+	 				<div="m-item-media">
+	 					<img src="http://www.greenpeace.org/africa/Templates/Planet3/Styles/images/temp/img4.gif" alt="Deep Green" height="71" width="72">
+	 				</div>	
+	 				<div="m-item-text">
+	 					Monthly feature from Greepeace's unofficial historian, Rex Weyler
+	 				</div> 			
+	 			</li>
+	 		</ul>
+	 		<ul class="m-list">
+	 			<li class="m-item unit">
+	 				<div="m-item-media">
+	 					<img src="http://www.greenpeace.org/international/Templates/Planet3/Styles/images/temp/img2.gif" alt="Marine reserves" height="71" width="72"></a> <span contenteditable="inherit">
+	 				</div>	
+	 				<div="m-item-text">
+	 					Save whales &amp; sharks - Marine reserves now!
+	 				</div> 			
+	 			</li>
+	 		</ul>
+	 	</div>
+	 </div>
+	
+	<!-- False Footer Sitemaps & Facts -->
+	<div class="footer-holder second">
+		<div class="footer sitemap">
+			<div class="links">
+				<dl class="what-we-do unit size 1of6">
+             		<dt>What we do</dt>
+             		<?php echo print_links_dd($footer_links["About us"]); ?>
+             	</dl>
+             	<dl class="about-us unit size 1of6">
+             		<dt>What we do</dt>
+             		<?php echo print_links_dd($footer_links["About us"]); ?>
+             	</dl>
+             	<dl class="multimedia unit size 1of6">
+             		<dt>What we do</dt>
+             		<?php echo print_links_dd($footer_links["Multimedia"]); ?>
+             	</dl>
+             	
+             	<dl class="sites-in-english unit size 1of6">
+             		<dt>sites-in-english</dt>
+             		<?php echo print_links_dd($footer_links["About us"]); ?>
+             	</dl>
+             	
+             	<div class="facts" unit size2of6>
+		           <dl class="organization unit size1of2">
+		             <dt>Facts & Figures</dt>
+		             <dd>Founded in 1971</dd>
+		             <dd>Three ships in the oceans</dd>
+		             <dd>Offices in 40 countries</dd>
+		             <dd class="number-of-supporters">Millions of supporters world-wide</li>
+		             <dd><a href="#">Become a supporter too!</a></dd>
+		           </dl>
+		           <ul class="ships unit size1of2">
+		             <li class="ship rainbow-warrior">
+		               <span class="name">Rainbow Warrior</span>
+		               <span class="class">sailing vessel,</span>
+		               <span class="active-since">active since 1989.</span>
+		             </li>
+		             <li class="ship artic-sunrise">
+		               <span class="name">Artic Sunrise</span>
+		               <span class="class">ice breaker,</span>
+		               <span class="active-since">active since 1997.</span>
+		             </li>
+		             <li class="ship esperanza">
+		               <span class="name">Esperanza</span>
+		               <span class="name-meaning">means "hope",</span>
+		               <span class="active-since">active since 2002.</span>
+		             </li>
+		           </ul>
+		         </div>
+             	
+				<dl class="take-action unit size 1of6">
+             		<dt>sites-in-english</dt>
+             		<?php echo print_links_dd($footer_links["National and regional wbsite in English"]); ?>
+             	</dl>
+             	<dl class="hot-this-month unit size 1of6">
+             		<dt>sites-in-english</dt>
+             		<?php echo print_links_dd($footer_links["Hot this month"]); ?>
+             	</dl>
+				<dl class="greenpeace-online social unit size 1of6">
+             		<dt>Greenpeace Online</dt>
+             		<?php echo print_links_dd($footer_links["Greenpeace Online"]); ?>
+             	</dl>
+			
+			</div>
 		</div>
 	</div>	
 </div>

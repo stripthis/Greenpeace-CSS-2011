@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	padding: 0;
+
+}
+
+/**************************************************
+ * Footer
+ **************************************************/
+
+.footer-holder.first{
+	background-color:#F5F7F7;
+}
+
+.footer-holder.second {
+	background:#005200;
+}
+
+.footer-holder.last{
+	background-color: #66CC00;
+}
+
+/**************************************************
+ * Header
+ **************************************************/
+
+
+
+.header-holder.first {
+  background-color:#66CC00;
+}
+
+.header-holder.last {
+  background-color:#53AD01;
+}
+
+/**
+ * Main Navigation 
+*/
+  
+
+.navigation-main {
+	width:650px;
+	position: relative;
+}
+
+.ltr .navigation-main {
+	float: left;
+}
+
+.rtl .navigation-main {
+	float: right;
+}
+
+
+.ltr .navigation-main .level-1 {
+	float: left;
+}
+
+.rtl .navigation-main .level-1 {
+	float: right;
+}
+
+/* Drop downs */
+
+/* base hover function */
+.navigation-main .level-1 {
+	position: relative;
+}
+.navigation-main .dropdown-level-2, .navigation-main .dropdown-level-3 {
+	display: none;
+	position:absolute;
+	z-index: 99999;
+	margin-left:5px;
+	padding:0;
+	background-color:#FFF;
+	border:1px solid #5EB60C;
+}
+
+.navigation-main .level-1:hover .dropdown-level-2, 
+.navigation-main .level-2:hover .dropdown-level-3  {
+	display: block;
+}
+
+
+/* Anchor styles */
+
+.navigation-main a
+
+.navigation-main .level-1 a{
+	padding:6px 10px 5px 10px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.navigation-main .level-2 a{
+
+}
+

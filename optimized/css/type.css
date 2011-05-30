@@ -1,0 +1,122 @@
+/**************************************************
+ * Fonts, Links, Titles & Lists
+ **************************************************/
+/* Default font settings.
+The font-size percentage is of 16px. (0.75 * 16px = 12px) */
+
+html { font-size:80.00%; }
+
+body {
+  font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
+  font-size: 75%;
+  line-height: 1.42;
+=======
+  /*font-size:0.750em;*/
+  font-size:12px;
+  color:#333;
+  line-height:1.3em;
+>>>>>>> f1d87ffac51d0e7d085295a92f8a7338b7fbaa98
+}
+/* links */
+a {
+  color:#003300;
+}
+a:hover, .header a:hover, .footer a:hover {
+  text-decoration:underline;
+}
+.header a, .footer a {
+  color:#FFF
+}
+a.more, ul.act a, a.act {
+  font-size:1.1em;
+  display:block;
+  padding:5px 0 5px 20px;
+  background:transparent url(../images/10x10/arrow0.png) 2px .65em no-repeat;
+}
+
+a.more.big {
+  font-size:1.3em;
+  background:transparent url(../images/14x14/arrow0.png) 0 center no-repeat;  
+}
+/* no needed but...
+a.more.bigger {
+  font-size:1.5em;
+  font-weight:bold;
+  padding-left:25px;
+  background:transparent url(../images/16x16/arrow0.png) 0 .35em no-repeat;  
+}*/
+
+
+/* Headings
+-------------------------------------------------------------- */
+
+h1, h2, h3, h4 {
+  font-weight:bold;
+  color:#003300;
+  clear:left;
+}
+
+h1,h2,h3,h4,h5,h6 { font-weight: bold; color:#003300; }
+
+h1, .h1 { font-size: 2.0em; line-height: 1; margin-bottom: 0.3em; }
+h2, .h2 { font-size: 1.5em; margin-bottom: 0.55em; }
+h3, .h3 { font-size: 1.5em; line-height: 1; margin-bottom: 0.7em; }
+h4, .h4 { font-size: 1.3em; line-height: 1.25; margin-bottom: 0.3em; }
+h5, .h5 { font-size: 1em; }
+h6, .h6 { font-size: 1em;  }
+
+h1 img, h2 img, h3 img,
+h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p { margin: 0 0 0.5em; }
+blockquote { margin: 1.5em; color: #666; font-style: italic; }
+strong,dfn { font-weight: bold; }
+em,dfn { font-style: italic; }
+abbr,
+acronym { border-bottom: 1px dotted #666; }
+
+
+/* Lists
+-------------------------------------------------------------- */
+li ul,
+li ol { margin: 0; }
+ul, ol { margin: 0; padding-left: 0; }
+
+ul { list-style-type: none; }
+ol { list-style-type: decimal; }
+
+dl { margin: 0 0 1.5em 0; }
+dl dt { font-weight: bold; margin-bottom: 0.3em; }
+dd { margin-left: 0.3em;}
+
+
+
+.article ul, .article ol {
+	margin: 0 1.5em 1.5em 0; padding-left: 1.5em;
+}
+
+/* lists */
+ul.social a {
+  padding:2px 0 6px 27px;
+}
+ul.social .facebook {
+  background:transparent url(../images/16x16/facebook.png) 2px 0 no-repeat;
+}
+ul.social .flickr {
+  background:transparent url(../images/16x16/flickr.png) 2px 0 no-repeat;
+}
+ul.social .twitter {
+  background:transparent url(../images/16x16/twitter.png) 2px 0 no-repeat;
+}
+ul.social .youtube {
+  background:transparent url(../images/16x16/youtube.png) 2px 0 no-repeat;
+}
+ul.social .rss {
+  background:transparent url(../images/16x16/rss.png) 2px 0 no-repeat;
+}

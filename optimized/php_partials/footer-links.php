@@ -1,5 +1,7 @@
 <?php
 
+
+
 $footer_links = array(
 	"What we do" => array(
 		"Climate change",
@@ -56,7 +58,17 @@ $footer_links = array(
 	),
 );
 
-function print_links($links){
+function print_links_dd($links){
+	$result = "";
+	
+	foreach	($links as $link) {
+		$result .= "<dd><a href='#'>$link</a></dd> \n";	
+	}
+	
+	return $result;
+}	
+	
+function print_links_li($links){
 	$result = "";
 	
 	foreach	($links as $link) {
@@ -65,5 +77,4 @@ function print_links($links){
 	
 	return $result;
 }	
-	
 	
