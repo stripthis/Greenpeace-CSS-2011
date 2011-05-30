@@ -60,9 +60,16 @@
 </script>
     <script src="js/home.js" type="text/javascript">
 </script>
+	<script src="js/debugger.js" type="text/javascript">
+	</script>
+
 </head>
 
 <body>
+	<div id="debugger">
+		<input id="dir_switch" type="button" value="LTR"/>		
+	</div>
+
     <div id="container" class="ltr home">
         <!-- Topmost bar of header -->
 
@@ -72,29 +79,28 @@
                     <a href="#" title="Greenpeace"><span class="screenreader">Greenpeace</span></a>
                 </div>
 
-                <div class="select-website form unit">
+                <div class="select-website form unit line">
                     <select id="select-website">
                         <?php
-                                                // Little PHP cheat here to print out the websites...
-                                                include 'php_partials/websites.php';
-                                                foreach ($websites as $key => $value): ?>
-
-                        <option class="website" value="<?php echo $key; ?>">
-                            <?php echo $value; ?>
-                        </option><?php   endforeach; ?>
-                    </select> <input type="submit" value="go" />
+                        // Little PHP cheat here to print out the websites...
+                        include 'php_partials/websites.php';
+                        foreach ($websites as $key => $value): ?>
+                        <option class="website" value="<?php echo $key; ?>"><?php echo $value; ?></option>
+                        <?php   endforeach; ?>
+                    </select> 
+                    <input type="submit" value="go" />
                 </div><!-- / .select-website -->
 
                 <div class="top-actions unit">
                     <!-- Shortcuts at top of page such as press -->
 
-                    <ul class="top-actions-nav line nav">
+                    <ul class="top-actions-nav nav line invert-h-list">
                         <li class="first"><a href="#">Press</a></li>
 
                         <li><a href="#">Publications</a></li>
                     </ul><!-- Search form -->
 
-                    <div id="header_search" class="search-box form line full-width">
+                    <div id="header_search" class="search-box form line">
                         <input id="header_search_field" class="input text searchfield" type="text" value="search" /> <input id="header_search_submit" type="submit" class="submit" value="search" />
                     </div>
                 </div><!-- /.top-actions -->
@@ -107,7 +113,7 @@
                 <!-- Main Navigation -->
 
                 <div id="main-navigation" class="navigation-main">
-                    <ul class="level-1 h-list line">
+                    <ul class="dropdown-nav h-list line">
                         <?php include 'php_partials/main_menu_links.php'?>
                     </ul>
                 </div><!-- Register and Login -->
@@ -136,7 +142,7 @@
                     <div class="maincol-inner">
                         <!-- Recent activity widget -->
 
-                        <div class="recent-activity paperbox widget">
+                        <div class="recent-activity paperbox widget line">
                             <h2 class="widget-title">Recent activity</h2>
 
                             <h3 class="widget-subtitle">All the latest</h3>
@@ -150,7 +156,7 @@
                             </ul>
                         </div><!-- Victories widget -->
 
-                        <div class="victories widget">
+                        <div class="victories widget line">
                             <h2 class="widget-title">Success Story</h2>
 
                             <div class="m-item">
@@ -166,11 +172,11 @@
                             </div>
                         </div><!-- Latest Updates widget -->
 
-                        <div class="latest-updates widget">
+                        <div class="latest-updates widget line">
                             <h1 class="widget-title">Greenpeace latest updates</h1><!-- Content Type Switcher -->
 
                             <div class="navigation by-content-type with-tabs">
-                                <ul class="tabs nav h-list">
+                                <ul class="tabs nav h-list line">
                                     <li class="all selected"><a href="#">All</a></li>
 
                                     <li class="news"><a href="#">News</a></li>
@@ -183,8 +189,8 @@
                                 </ul>
                             </div><!-- Content Category Switcher -->
 
-                            <div class="navigation by-category form">
-                                <select class="category-select">
+                            <div class="navigation by-category form line">
+                                <select class="category-select inv-unit">
                                     <option selected="selected" value="all cateogory">
                                         all categories
                                     </option>
@@ -223,7 +229,7 @@
                                 </select>
                             </div>
 
-                            <div class="posts">
+                            <div class="posts line">
                                 <?php  // Output the following number of dummy posts
                                                         $max_posts = 9;
                                                         include 'php_partials/sample_posts.php';
@@ -237,10 +243,10 @@
                                     </div>
 
                                     <div class="post-content m-item-text">
-                                        <h2><a href="#" title="<?php echo $article['title']; ?>"><?php echo $article['title']; ?></a></h2>
+                                        <h2 class="post-title"><a href="#" title="<?php echo $article['title']; ?>"><?php echo $article['title']; ?></a></h2>
 
                                         <div class="post-meta">
-                                            <span class="content-type"><?php echo $article["content-type"]; ?></span> <span class="author">by <?php echo $article["author"]; ?></span> <span class="comments"><?php echo $article["comments"]; ?></span>
+                                            <span class="content-type"><?php echo $article["content-type"]; ?></span> <span class="author">by <?php echo $article["author"]; ?></span><span class="pub-date"><?php echo $article["date"]; ?></span><span class="comments"><?php echo $article["comments"]; ?></span>
                                         </div>
 
                                         <div class="post-teaser">
@@ -265,7 +271,7 @@
                     <div class="sidebar-inner">
                         <!-- Newsletter sign up widget -->
 
-                        <div class="form widget register sidebar-box">
+                        <div class="form widget sign-up sidebar-box line">
                             <h3 class="widget-title">Sign Up for Action Alert</h3>
 
                             <fieldset>
@@ -293,24 +299,24 @@
                                     </select>
                                 </div>
 
-                                <div class="input submit button">
+                                <div class="input submit button inv-unit">
                                     <input type="submit" value="Sign Up ›" />
                                 </div>
                             </fieldset>
                         </div><!-- Latest Photos widget -->
 
-                        <div class="widget latest-photos sidebar-box">
+                        <div class="widget latest-photos sidebar-box line">
                             <h3 class="widget-title">Latest photos</h3>
 
                             <ul class="photos widget-content">
                                 <?php       include "php_partials/latest_photos.php";
                                                                 foreach ($latest_photos as $photo):              ?>
 
-                                <li class="photo"><a title="?php echo $photo['title'] ?&gt;" href="#"><img src="<?php echo $photo['src'] ?>" alt="<?php echo $photo['title'] ?>" /></a></li><?php       endforeach; ?>
+                                <li class="photo unit"><a title="<?php echo $photo['title'] ?>" href="#"><img src="<?php echo $photo['src'] ?>" alt="<?php echo $photo['title'] ?>" /></a></li><?php       endforeach; ?>
                             </ul>
                         </div>
 
-                        <div class="widget latest-actions sidebar-box">
+                        <div class="widget latest-actions sidebar-box line">
                             <h3 class="widget-title">Things you can do:</h3>
 
                             <ul class="act">

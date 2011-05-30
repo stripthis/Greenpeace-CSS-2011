@@ -23,7 +23,11 @@
 	@see: https://github.com/stubbornella/oocss/blob/master/core/grid/grids.css
 */
 
-.unit{float:left;}
+.ltr .unit{float:left;}
+.rtl .unit{ float: right;}
+
+.ltr .inv-unit { float: right; }
+.rtl .unit{ float: left;}
 .size1of1{float:none;}
 .size1of2{width:50%;}
 .size1of3{width:33.33333%;}
@@ -55,7 +59,6 @@ ul.h-list, .h-list ul {
 
 .m-item {
 	margin-bottom: 1em;
-	border: 1px solid;
 }
 
 .ltr .m-item-media {
@@ -74,6 +77,15 @@ ul.h-list, .h-list ul {
 
 .rtl .m-item-text {
 	display: table-cell;	
+}
+
+.ltr .invert-h-list li{
+	float: right;
+	
+}
+
+.rtl .invert-h-list li{
+	float: left;
 }
 
 /* main site layout */
@@ -97,15 +109,11 @@ ul.h-list, .h-list ul {
 	float: right;
 }
 
-.sidebar-holder{
-	width: 300px;
-}
-
 .ltr .sidebar-holder{
-	float: left;	
+	float: right;	
 }
 
 .rtl .sidebar-holder{
-	float: right;
+	float: left;
 }
 
