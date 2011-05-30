@@ -119,7 +119,7 @@
                 </div><!-- Register and Login -->
 
                 <div class="navigation authentication">
-                    <ul class="nav authenication h-list line">
+                    <ul class="nav authenication h-list inv-unit">
                         <li class="login"><a href="#">Sign in</a></li>
 
                         <li class="register"><span>New here?</span> <a href="#">Sign up!</a></li>
@@ -258,7 +258,7 @@
                                                         // Increment counter ...
                                                         $c++;
                                                         $x++;
-                                                        if ($x >= (count($articles)-1)) { $x = 0; };
+                                                        if ($x >= (count($articles))) { $x = 0; };
                                                         // End posts loop
                                                         endwhile;
                                                         ?>
@@ -337,8 +337,10 @@
         <div id="footer-first" class="footer-holder first line">
             <div class="footer-first-inner footer highlight line full-width">
                 <ul class="m-list">
-                    <li class="m-item unit">
-                        <div><img src="http://www.greenpeace.org/international/Global/international/artwork/other/2011/footer/unfriendcoal_btn.jpg" alt="Help get Facebook to unfriend coal" height="71" width="72" /></div>
+                    <li class="m-item unit size1of3">
+                        <div class="m-item-media">
+                        	<img src="http://www.greenpeace.org/international/Global/international/artwork/other/2011/footer/unfriendcoal_btn.jpg" alt="Help get Facebook to unfriend coal" height="71" width="72" />
+                        	</div>		
 
                         <div>
                             Help get Facebook to unfriend coal
@@ -347,20 +349,24 @@
                 </ul>
 
                 <ul class="m-list">
-                    <li class="m-item unit">
-                        <div><img src="http://www.greenpeace.org/africa/Templates/Planet3/Styles/images/temp/img4.gif" alt="Deep Green" height="71" width="72" /></div>
+                    <li class="m-item unit size1of3">
+                        <div class="m-item-media">
+                        	<img src="http://www.greenpeace.org/africa/Templates/Planet3/Styles/images/temp/img4.gif" alt="Deep Green" height="71" width="72" />
+                        </div>
 
-                        <div>
+                        <div class="m-item-text">
                             Monthly feature from Greepeace's unofficial historian, Rex Weyler
                         </div>
                     </li>
                 </ul>
 
                 <ul class="m-list">
-                    <li class="m-item unit">
-                        <div><img src="http://www.greenpeace.org/international/Templates/Planet3/Styles/images/temp/img2.gif" alt="Marine reserves" height="71" width="72" /></div>
+                    <li class="m-item unit size1of3">
+                        <div class="m-item-media">
+                        	<img src="http://www.greenpeace.org/international/Templates/Planet3/Styles/images/temp/img2.gif" alt="Marine reserves" height="71" width="72" />
+                        </div>
 
-                        <div>
+                        <div class="m-item-text">
                             <span contenteditable="inherit">Save whales &amp; sharks - Marine reserves now!</span>
                         </div>
                     </li>

@@ -27,7 +27,7 @@
 .rtl .unit{ float: right;}
 
 .ltr .inv-unit { float: right; }
-.rtl .unit{ float: left;}
+.rtl .inv-unit{ float: left;}
 .size1of1{float:none;}
 .size1of2{width:50%;}
 .size1of3{width:33.33333%;}
@@ -47,8 +47,15 @@ ul.h-list, .h-list ul {
 	list-style-type: none;		
 }
 .h-list li {
-	float: left;
 	padding: 0;
+}
+
+.ltr .h-list li {
+	float: left;
+}
+
+.rtl .h-list li {
+	float: right;
 }
 
 .footer-holder ul, .sidebar-holder ul {
