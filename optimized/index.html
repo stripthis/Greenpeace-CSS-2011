@@ -218,13 +218,13 @@
   <!-- Main Content -->
   <div class="content-holder">
     <div class="content-holder2 clearfix">
-      <div class="content main">
+      <div class="content main clearfix">
         <ul class="breadcrumb">
           <li><a href="#">Home</a>&#155;</li>
           <li>Welcome!</li>
         </ul>
         <!-- Recent Activities -->
-        <div class="recent-activity paperbox">
+        <div class="recent-activity paperbox clearfix">
           <h2>Recent activity</h2>
           <h3>All the latest</h3>
           <ul class="activity">
@@ -243,7 +243,7 @@
           </ul>
         </div>
         <!-- Victories -->
-        <div class="victories">
+        <div class="victories clearfix">
           <h2>Success Story</h2>
           <div>
             <a href="#">
@@ -255,7 +255,8 @@
         </div>
         <!-- Latest Update -->
         <div class="latest-updates">
-          <h1>Greenpeace latest updates</h1>
+          <!-- h1 is semantically correct - however we want the same size as the other section headings -->
+          <h1 class="h3">Greenpeace latest updates</h1>
           <!-- Content Type Switcher -->
           <div class="navigation by-content-type with-tabs">
             <ul>
