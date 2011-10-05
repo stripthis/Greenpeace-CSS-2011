@@ -1,0 +1,123 @@
+.cf, .clearfix, .container, .h_list, .h_list_inv {
+	&:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+		background-color: red;
+	}
+		
+	// IE6
+	* html & {
+		zoom: 1;
+	
+	}
+	// IE7
+	*:first-child+html & {
+	 zoom: 1;
+	}
+}
+
+/*  - - - - - - - - - - - - - - - - -
+img_rep
+- - - - - - - - - - - - - - - - - - -
+Generic Image replacement.	
+
+* * * * * * * * * * * * * * * * * * */
+.img_rep {
+	overflow: hidden;
+	text-indent: -999em;
+	display: block;
+	font-size: 1px;
+}
+
+/*  - - - - - - - - - - - - - - - - -
+h_list
+- - - - - - - - - - - - - - - - - - -
+
+Generic horizonal list.
+Provides float and clearfix.
+Floats in current text direction.	
+
+* * * * * * * * * * * * * * * * * * */
+
+.h_list, .h_list_inv {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.h_list::after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+.h_list li {
+	list-style-type: none;
+}
+
+.ltr .h_list {
+	li, dd {
+		float: left;
+		margin-right: 5px;
+	}
+}
+// h_list which flows to opposite of the normal flow
+.ltr .h_list_inv{
+	li, dd {
+		float: right;
+		margin-left: 5px;
+	}
+}
+
+.rtl .h_list{
+	li, dd {
+	  float: right;
+		margin-left: 5px;
+	}
+}
+
+// h_list which flows to opposite of the normal flow
+.rtl .h_list_inv{
+	li, dd {	
+		float: left;
+		margin-right: 5px;
+	}
+}
+
+
+/*  - - - - - - - - - - - - - - - - -
+m_list
+- - - - - - - - - - - - - - - - - - -
+
+Generic Picture & text building block	
+
+* * * * * * * * * * * * * * * * * * */
+
+.m_list {
+
+}
+
+.ml_item {
+	margin: 0 0 15px;
+	padding: 0 0 15px;
+	border-bottom: 3px dotted gray;
+}
+
+.ltr .ml_image {
+	float: left;
+	min-width: 90px;
+	margin-right: 15px;
+}
+
+.ltr .ml_text {
+	display: table-cell;
+}
+
+.rtl .ml_image {
+}
+
+.rtl .ml_text {
+}
+

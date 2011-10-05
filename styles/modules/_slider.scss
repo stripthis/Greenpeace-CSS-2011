@@ -1,0 +1,25 @@
+/*  - - - - - - - - - - - - - - - - -
+Generic slider
+- - - - - - - - - - - - - - - - - - -
+
+* * * * * * * * * * * * * * * * * * */
+
+.p3ui_slider {
+	min-height: 480px;
+	position: relative;
+}
+
+.p3ui_slider_controls {
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+	padding: 10px 14px;
+	background-color: #363942;
+	.next, .prev {
+		float: left;
+	}
+}
+
+.p3ui_slider_pagination {
+	float: left;
+}

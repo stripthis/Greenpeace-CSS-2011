@@ -1,0 +1,39 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+.screader_only {
+	display: none;
+}
+
+@import "compass/reset";
+@import "base/grid";
+
+/*  - - - - - - - - - - - - - - - - -
+For debugging / Testing only
+- - - - - - - - - - - - - - - - - - - */
+@import "modules/debugger";
+
+/*  - - - - - - - - - - - - - - - - -
+Import base libs
+- - - - - - - - - - - - - - - - - - - */
+@import "base/grid";
+@import "base/type";
+@import "base/utilities";
+@import "base/forms";
+@import "base/layout";
+/*  - - - - - - - - - - - - - - - - -
+Import Themes
+- - - - - - - - - - - - - - - - - - - */
+@import "themes/theme_a";
+@import "themes/theme_b";
+@import "themes/theme_c";
+
+/*  - - - - - - - - - - - - - - - - -
+Import modules
+- - - - - - - - - - - - - - - - - - - */
+@import "modules/block";
+@import "modules/controlgroup";
+@import "modules/dropdown";
+@import "modules/slider";

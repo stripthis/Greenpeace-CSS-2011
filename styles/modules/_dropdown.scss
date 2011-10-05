@@ -1,0 +1,81 @@
+/*  - - - - - - - - - - - - - - - - -
+Dropdown Menu
+- - - - - - - - - - - - - - - - - - -
+
+* * * * * * * * * * * * * * * * * * */
+
+.p3ui_dropdown {
+	@extend .clearfix;
+
+	a {		
+		text-decoration: none;
+		padding: 5px;
+		display: block;
+		font-weight: bold;
+	
+		&:hover, &:focus {			
+		}		
+		&:active {	
+		}
+	}
+	
+	li {
+		list-style-type: none;
+		position: relative;
+		display: block;
+	}	
+	
+	.gen_1 {		
+		display: block;
+		position: relative;
+		border-radius: 0 0 4px 4px;
+
+		a {
+			color: #fff;
+			padding: 6px 10px;
+			display: block;
+		}
+		
+		.ltr & {
+			float: left;
+			margin-right: 8px;
+		}
+		.rtl & {
+			float: right;
+			margin-left: 8px;
+		}
+		
+		&:hover {
+			background-color: #74cb00;
+			z-index: 99999;
+		} 
+	}
+	
+	.gen_2, .gen_3 {
+		display: none;
+		width: 250px;
+		position: absolute;
+		background-color: #fff;
+		background-color: rgba(white, 0.98);
+		
+		a {
+			color: black;
+			font-weight: normal;
+		}
+	}
+	
+	.gen_3{
+		left: 100%;
+		top: 0;
+	}
+
+	// The hover functionality
+	.gen_1:hover .gen_2, .gen_2 li:hover .gen_3 {
+		display: block;
+	}
+	
+	.gen_2 li:hover {
+		background-color: #74cb00;
+		background-color: rgba(#74cb00, 0.8);;
+	}
+}
