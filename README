@@ -10,6 +10,37 @@ https://github.com/stripthis/Greenpeace-CSS/wiki
 
 ---------------------------------------
 
-     Can I haz clean code pliz?
-(o_ '
-(/)_
+Additional info
+===================================
+
+SASS
+-------------------------------------------------------------
+Please note that the CSS files are written in SASS
+
+SASS is a Ruby based CSS precursor.
+Its like LESS but without the fuss, mess & anguish.
+
+the file format used is .scss
+
+How to install Compass SASS
+http://compass-style.org/install/
+
+when you have it installed run:
+$ cd Greenpeace-CSS (or path/to/project)
+$ compass watch
+
+You should see:
+#  >>> Compass is watching for changes. Press Ctrl-C to Stop.
+
+Feel free to skype me if you have any problems.
+
+PHP
+------------------------------------------------
+This project uses PHP to stitch together the templates.
+You will need a personal PHP development enviroment.
+
+Mac OS-X 
+http://www.mamp.info/en/index.html
+
+Windows
+http://www.apachefriends.org/en/xampp.html
